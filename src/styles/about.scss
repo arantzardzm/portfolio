@@ -1,0 +1,22 @@
+.about-row-wrapper {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title-wrapper {
+  color: white;
+  background-color: #CBB3BF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-description-wrapper {
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // margin-top: 50px !important;
+}

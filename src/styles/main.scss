@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Roboto:wght@100;300&display=swap');
+
+// main wrapper for all pages
+
+// 8DA1B9
+// 95ADB6
+// CBB3BF
+// 8B8599
+
+.main-wrapper {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  overflow-x: hidden;
+}
+
+// title
+
+.title {
+  font-family: 'Lato';
+  font-weight: 300;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.title-normal {
+  font-style: normal;
+}
+
+.title-italic {
+  font-style: italic;
+}
+
+.title-l {
+  font-size: 60px;
+}
+
+.title-m {
+  font-size: 40px;
+}
+
+.title-s {
+  font-size: 25px;
+}
+
+.title-link {
+  color: white;
+  text-decoration: none;
+}
+
+.title-link:hover {
+  color: grey;
+}
+
+// paragraph
+
+.paragraph {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+// spacer
+
+.spacer {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+// empty
+
+.empty {
+  margin-top: 50px;
+}
+
+// colors
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+// iframe
+.embed-container {
+  --video--width: 1296;
+  --video--height: 540;
+  position: relative;
+  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
