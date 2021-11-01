@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d90fe8508fb95cb8decb1c4beb511991",
+    "revision": "853979e26932b5f1412c0da5b1f3d864",
     "url": "https://www.arantzardzm.com/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://www.arantzardzm.com/static/css/2.31cd1e41.chunk.css"
   },
   {
-    "revision": "94edc3c960300b02d147",
+    "revision": "dcdab87f35c8e53ceaf8",
     "url": "https://www.arantzardzm.com/static/css/main.c69ce1df.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://www.arantzardzm.com/static/js/2.6b8f085f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "94edc3c960300b02d147",
-    "url": "https://www.arantzardzm.com/static/js/main.72292900.chunk.js"
+    "revision": "dcdab87f35c8e53ceaf8",
+    "url": "https://www.arantzardzm.com/static/js/main.7dd480cf.chunk.js"
   },
   {
     "revision": "1be910db47d1b7a221b4",

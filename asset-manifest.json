@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://www.arantzardzm.com/static/css/main.c69ce1df.chunk.css",
-    "main.js": "https://www.arantzardzm.com/static/js/main.72292900.chunk.js",
-    "main.js.map": "https://www.arantzardzm.com/static/js/main.72292900.chunk.js.map",
+    "main.js": "https://www.arantzardzm.com/static/js/main.7dd480cf.chunk.js",
+    "main.js.map": "https://www.arantzardzm.com/static/js/main.7dd480cf.chunk.js.map",
     "runtime-main.js": "https://www.arantzardzm.com/static/js/runtime-main.4f2a235d.js",
     "runtime-main.js.map": "https://www.arantzardzm.com/static/js/runtime-main.4f2a235d.js.map",
     "static/css/2.31cd1e41.chunk.css": "https://www.arantzardzm.com/static/css/2.31cd1e41.chunk.css",
     "static/js/2.6b8f085f.chunk.js": "https://www.arantzardzm.com/static/js/2.6b8f085f.chunk.js",
     "static/js/2.6b8f085f.chunk.js.map": "https://www.arantzardzm.com/static/js/2.6b8f085f.chunk.js.map",
     "index.html": "https://www.arantzardzm.com/index.html",
-    "precache-manifest.b8616ef7fe31f75ee7d95b49daa6515a.js": "https://www.arantzardzm.com/precache-manifest.b8616ef7fe31f75ee7d95b49daa6515a.js",
+    "precache-manifest.17d2b7d78ad3e19c39fb4c5ab17325ba.js": "https://www.arantzardzm.com/precache-manifest.17d2b7d78ad3e19c39fb4c5ab17325ba.js",
     "service-worker.js": "https://www.arantzardzm.com/service-worker.js",
     "static/css/2.31cd1e41.chunk.css.map": "https://www.arantzardzm.com/static/css/2.31cd1e41.chunk.css.map",
     "static/css/main.c69ce1df.chunk.css.map": "https://www.arantzardzm.com/static/css/main.c69ce1df.chunk.css.map",
@@ -103,6 +103,6 @@
     "static/css/2.31cd1e41.chunk.css",
     "static/js/2.6b8f085f.chunk.js",
     "static/css/main.c69ce1df.chunk.css",
-    "static/js/main.72292900.chunk.js"
+    "static/js/main.7dd480cf.chunk.js"
   ]
 }
