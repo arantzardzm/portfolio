@@ -1,4 +1,4 @@
-## Arantza Personal Website
+## Arantza Portolio
 
 ## Technologies Used
 <b>Built with</b>
@@ -15,7 +15,7 @@
 ## Installation
 ```
 git clone
-cd arantza-personal-website/
+cd portfolio/
 yarn install
 yarn start
 ```

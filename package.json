@@ -1,7 +1,8 @@
 {
-  "name": "arantza-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://arantzardzm.github.io/portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,6 +15,7 @@
     "@types/react-router-dom": "^5.1.6",
     "axios": "^0.20.0",
     "bootstrap": "^5.1.0",
+    "gh-pages": "^3.2.3",
     "lodash": "^4.17.20",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
@@ -25,6 +27,8 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
