@@ -3,11 +3,11 @@
   "mainParagraph": ["i am a software developer and interactive media designer currently living and working in dubai."],
   "aboutTitle": "about.",
   "aboutParagraph": ["here you will be able to get to know me better."],
-  "aboutLink": "/portfolio/about",
+  "aboutLink": "/about",
   "workTitle": "works.",
   "workParagraph": ["here you will be able to view some of my past and current projects."],
-  "workLink": "/portfolio/works",
+  "workLink": "/works",
   "contactTitle": "contact.",
   "contactParagraph": ["here you will be able to reach out to me."],
-  "contactLink": "/portfolio/contact"
+  "contactLink": "/contact"
 }

@@ -15,18 +15,18 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/portfolio'>
         <Switch>
-          <Route exact path="/portfolio">
+          <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/portfolio/about">
+          <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/portfolio/works">
+          <Route exact path="/works">
             <Works />
           </Route>
-          <Route exact path="/portfolio/contact">
+          <Route exact path="/contact">
             <Contact />
           </Route>
         </Switch>
