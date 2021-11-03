@@ -6,7 +6,6 @@ import Title from '../components/title';
 import Paragraph from '../components/paragraph';
 
 import { contact } from '../content';
-import { cv } from '../documents';
 
 interface Props {}
 

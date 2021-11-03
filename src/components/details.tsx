@@ -23,7 +23,7 @@ import {
   robotsImgs,
   colorsImgs
 } from '../images';
-import { robots } from '../documents';
+import { robots } from '../files';
 
 const Details = (props: any) => {
   const { obj } = props;
