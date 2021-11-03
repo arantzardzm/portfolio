@@ -1,8 +1,33 @@
 {
   "contactTitle": "contact.",
   "contactDescription": [
-    "Hey, thanks for your interest in my work.",
-    "Feel free to reach out to me on my personal email: arantzairdzm@gmail.com",
-    "And you can also check out my links:"
+    {
+      "paragraph": [
+        "Thank you so much for your interest in my work!",
+        "Please feel free to reach out to me on my personal email: arantzairdzm@gmail.com :)"
+      ]
+    },
+    {
+      "paragraph": [
+        "You can also check out some of my other links listed below:"
+      ]
+    }
+  ],
+  "contactLinks": [
+    {
+      "type": "github", "link": "https://github.com/arantzardzm"
+    },
+    {
+      "type": "linkedin", "link": "https://www.linkedin.com/in/arantzardzm"
+    },
+    {
+      "type": "cv", "link": "https://www.arantzardzm/static/media/cv.dd7743c5.pdf"
+    },
+    {
+      "type": "email", "link": "mailto:arantzairdzm@gmail.com"
+    },
+    {
+      "type": "behance", "link": "https://www.behance.net/arantzardzm"
+    }
   ]
 }

@@ -7,8 +7,9 @@ export interface TitleProps {
 }
 
 export interface ParagraphProps {
-  text: string[];
+  text: any[];
   color: string;
+  p?: boolean;
 }
 
 export interface ImageProps {

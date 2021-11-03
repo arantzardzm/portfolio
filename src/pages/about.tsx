@@ -28,7 +28,9 @@ const About = (props: Props) => {
           <Col className="about-description-wrapper">
             <Paragraph
               text={about.aboutDescription}
-              color={'black'}/>
+              color={'black'}
+              p={true}
+            />
           </Col>
         </Row>
       </div>

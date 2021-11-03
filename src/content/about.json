@@ -1,4 +1,36 @@
 {
   "aboutTitle": "about.",
-  "aboutDescription": ["My name is arantza rodriguez. i was born and raised in a small city in mexico called queretaro."]
+  "aboutDescription": [
+    {
+      "paragraph": [
+        "Hi! I'm Arantza."
+      ]
+    },
+    {
+      "paragraph": [
+        "I was born and raised in a small, but beautiful city, in Mexico, called Queretaro."
+      ]
+    },
+    {
+      "paragraph": [
+        "After being accepted to New York University Abu Dhabi, I moved to the United Arab Emirates to pursue a bachelor's degree in Computer Science with a minor in Economics."
+      ]
+    },
+    {
+      "paragraph": [
+        "I'm a Full-Stack Software Developer with three years of professional experience based in Dubai. I have a wide range of project experience building scalable solutions using various technologies.",
+        "I'm currently working remotely for Grabbd Inc, a unique mobile platform that allows users to discover new places and create personal city guides."
+      ]
+    },
+    {
+      "paragraph": [
+        "Some of my other interests include augmented reality, virtual reality, and human-computer interaction."
+      ]
+    },
+    {
+      "paragraph": [
+        "I'm a quick learner who loves to tackle problems, pitch ideas, and discover new stuff. And whenever I'm not writing code, I enjoy traveling, playing football, and eating food at new places!"
+      ]
+    }
+  ]
 }

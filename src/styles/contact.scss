@@ -18,5 +18,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // margin-top: 50px !important;
+  flex-direction: column;
+  margin-top: 25px !important;
+}
+
+.contact-link-wrapper {
+  margin-top: 25px !important;
+}
+
+.contact-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  transition-duration: .5s;
+}
+
+.contact-link:hover {
+  color: #95ADB6;
+  transition-duration: .5s;
 }
