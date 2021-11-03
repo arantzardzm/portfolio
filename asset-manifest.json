@@ -1,25 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.cbe9e178.chunk.css",
-    "main.js": "/static/js/main.03718ddc.chunk.js",
-    "main.js.map": "/static/js/main.03718ddc.chunk.js.map",
+    "main.js": "/static/js/main.f17403ba.chunk.js",
+    "main.js.map": "/static/js/main.f17403ba.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.31cd1e41.chunk.css": "/static/css/2.31cd1e41.chunk.css",
-    "static/js/2.e1b6aaba.chunk.js": "/static/js/2.e1b6aaba.chunk.js",
-    "static/js/2.e1b6aaba.chunk.js.map": "/static/js/2.e1b6aaba.chunk.js.map",
+    "static/js/2.ae484ad5.chunk.js": "/static/js/2.ae484ad5.chunk.js",
+    "static/js/2.ae484ad5.chunk.js.map": "/static/js/2.ae484ad5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.04efed273bd94a721b3489645dc191ce.js": "/precache-manifest.04efed273bd94a721b3489645dc191ce.js",
+    "precache-manifest.7ee2b3a1e8d5be362252b2ff9124fd2d.js": "/precache-manifest.7ee2b3a1e8d5be362252b2ff9124fd2d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.31cd1e41.chunk.css.map": "/static/css/2.31cd1e41.chunk.css.map",
     "static/css/main.cbe9e178.chunk.css.map": "/static/css/main.cbe9e178.chunk.css.map",
-    "static/js/2.e1b6aaba.chunk.js.LICENSE.txt": "/static/js/2.e1b6aaba.chunk.js.LICENSE.txt",
+    "static/js/2.ae484ad5.chunk.js.LICENSE.txt": "/static/js/2.ae484ad5.chunk.js.LICENSE.txt",
     "static/media/colors_0.jpg": "/static/media/colors_0.ba5cf235.jpg",
     "static/media/colors_1.jpg": "/static/media/colors_1.6a3b077d.jpg",
     "static/media/colors_2.jpg": "/static/media/colors_2.ea144128.jpg",
     "static/media/colors_3.jpg": "/static/media/colors_3.45ca9f7f.jpg",
-    "static/media/cv.pdf": "/static/media/cv.dd7743c5.pdf",
-    "static/media/emerge.pdf": "/static/media/emerge.268fb07f.pdf",
     "static/media/emerge_0.jpg": "/static/media/emerge_0.9cd05987.jpg",
     "static/media/emerge_1.jpg": "/static/media/emerge_1.fbca1ef6.jpg",
     "static/media/emerge_2.jpg": "/static/media/emerge_2.de736ebc.jpg",
@@ -102,8 +100,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.31cd1e41.chunk.css",
-    "static/js/2.e1b6aaba.chunk.js",
+    "static/js/2.ae484ad5.chunk.js",
     "static/css/main.cbe9e178.chunk.css",
-    "static/js/main.03718ddc.chunk.js"
+    "static/js/main.f17403ba.chunk.js"
   ]
 }
