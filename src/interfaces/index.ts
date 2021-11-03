@@ -44,3 +44,7 @@ export interface Audio {
 export interface AudioProps {
   audios: Audio[];
 }
+
+export interface NavigationProps {
+  color: string;
+}

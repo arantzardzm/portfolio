@@ -89,6 +89,10 @@
   color: black;
 }
 
+.purple-text {
+  color: #8B8599;
+}
+
 // iframe
 .embed-container {
   --video--width: 1296;
@@ -107,4 +111,17 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+// navigation
+
+.navigation-link {
+  margin-top: 15px;
+  margin-left: 20px;
+  transition-duration: .5s;
+}
+
+.navigation-link:hover {
+  color: #CBB3BF;
+  transition-duration: .5s;
 }

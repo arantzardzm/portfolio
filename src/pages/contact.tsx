@@ -2,6 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Navigation from '../components/navigation';
 import Title from '../components/title';
 import Paragraph from '../components/paragraph';
 
@@ -22,6 +23,7 @@ const Contact = (props: Props) => {
   return (
     <>
       <div className="main-wrapper">
+        <Navigation color={'purple'}/>
         <Row className="contact-row-wrapper">
           <Col className="contact-title-wrapper">
             <div>

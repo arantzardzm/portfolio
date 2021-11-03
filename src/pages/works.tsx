@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Navigation from '../components/navigation';
 import Title from '../components/title';
 import Paragraph from '../components/paragraph';
 import Spacer from '../components/spacer';
@@ -35,6 +36,7 @@ const Works = (props: Props) => {
   return (
     <>
       <div className="main-wrapper">
+        <Navigation color={'white'}/>
         <Row className="works-row-wrapper">
           <Col lg={3} className="works-title-wrapper">
             <Empty />
