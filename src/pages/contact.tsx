@@ -45,7 +45,7 @@ const Contact = (props: Props) => {
               <a href={getLink('github')} target="_blank" rel="noopener noreferrer"><i className='fa fa-github fa-2x contact-link'></i></a>
               <a href={getLink('linkedin')} target="_blank" rel="noopener noreferrer"><i className='fa fa-linkedin fa-2x contact-link'></i></a>
               <a href={getLink('behance')} target="_blank" rel="noopener noreferrer"><i className='fa fa-behance fa-2x contact-link'></i></a>
-              <a href={cv} target="_blank" rel="noopener noreferrer"><i className='fa fa-file-o fa-2x contact-link'></i></a>
+              <a href={getLink('cv')} target="_blank" rel="noopener noreferrer"><i className='fa fa-file-o fa-2x contact-link'></i></a>
               <a href={getLink('email')} target="_blank" rel="noopener noreferrer"><i className='fa fa-envelope-o fa-2x contact-link'></i></a>
             </div>
           </Col>
