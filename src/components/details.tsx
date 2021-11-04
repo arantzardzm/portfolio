@@ -155,7 +155,7 @@ const Details = (props: any) => {
             <Spacer />
             <div style={{textAlign:'center'}}>
               <audio controls>
-                <source src={robots} type="audio/ogg"></source>
+                <source src={robots} type="audio/mp3"></source>
               </audio>
             </div>
             <Empty />

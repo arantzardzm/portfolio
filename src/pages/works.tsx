@@ -26,11 +26,18 @@ const displayWork = (key: string) => {
   }
 }
 
+const scroll = (to: string) => {
+  const section = document.querySelector(to);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
 const Works = (props: Props) => {
   const [work, setWork] = useState(works.main.link);
-
   const selectWork = (work: string) => {
     setWork(work);
+    scroll('#work');
   };
 
   return (
@@ -38,7 +45,7 @@ const Works = (props: Props) => {
       <div className="main-wrapper">
         <Navigation color={'white'}/>
         <Row className="works-row-wrapper">
-          <Col lg={3} className="works-title-wrapper">
+          <Col lg={3} className="works-title-wrapper" id="top">
             <Empty />
             <Title
               text={works.main.title}
@@ -161,7 +168,8 @@ const Works = (props: Props) => {
             <Empty />
 
           </Col>
-          <Col lg={9} className="works-description-wrapper">
+          <Col lg={9} className="works-description-wrapper" id="work">
+            <i className={`fa fa-arrow-up fa-1x arrow-link`} onClick={() => scroll('#top')}></i>
             {displayWork(work)}
           </Col>
         </Row>

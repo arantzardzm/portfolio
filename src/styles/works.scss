@@ -1,5 +1,6 @@
 .works-row-wrapper {
   height: 100%;
+  max-width: 100%;
 }
 
 .works-title-wrapper {
@@ -16,4 +17,22 @@
   // display: flex;
   // justify-content: center;
   // align-items: center;
+}
+
+.arrow-link {
+  margin-top: 15px;
+  margin-left: 20px;
+  transition-duration: .5s;
+  display: none;
+}
+
+.arrow-link:hover {
+  color: #CBB3BF;
+  transition-duration: .5s;
+}
+
+@media (max-width:990px) {
+  .arrow-link {
+    display: block;
+  }
 }

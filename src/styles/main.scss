@@ -7,13 +7,16 @@
 // CBB3BF
 // 8B8599
 
+html {
+  scroll-behavior: smooth;
+}
+
 .main-wrapper {
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  overflow-x: hidden;
 }
 
 // title
