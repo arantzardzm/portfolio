@@ -96,10 +96,10 @@ import workshop0Img from './workshop/workshop_0.png';
 import workshop1Img from './workshop/workshop_1.png';
 
 // modeling
-import modeling0Img from './modeling/modeling_0.png';
-import modeling1Img from './modeling/modeling_1.png';
-import modeling2Img from './modeling/modeling_2.png';
-import modeling3Img from './modeling/modeling_3.png';
+// import modeling0Img from './modeling/modeling_0.png';
+// import modeling1Img from './modeling/modeling_1.png';
+// import modeling2Img from './modeling/modeling_2.png';
+// import modeling3Img from './modeling/modeling_3.png';
 
 // robots
 import robots0Img from './robots/robots_0.png';
@@ -221,12 +221,12 @@ const workshopImgs = [
   workshop1Img,
 ];
 
-const modelingImgs = [
-  modeling0Img,
-  modeling1Img,
-  modeling2Img,
-  modeling3Img,
-];
+// const modelingImgs = [
+//   modeling0Img,
+//   modeling1Img,
+//   modeling2Img,
+//   modeling3Img,
+// ];
 
 const robotsImgs = [
   robots0Img,
@@ -257,7 +257,6 @@ export {
   strandedImgs,
   squareImgs,
   workshopImgs,
-  modelingImgs,
   robotsImgs,
   colorsImgs
 }

@@ -48,3 +48,7 @@ export interface AudioProps {
 export interface NavigationProps {
   color: string;
 }
+
+export interface EmptyProps {
+  size?: 'l' | 'm' | 's';
+}

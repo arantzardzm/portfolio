@@ -19,7 +19,6 @@ import {
   strandedImgs,
   squareImgs,
   workshopImgs,
-  modelingImgs,
   robotsImgs,
   colorsImgs
 } from '../images';
@@ -68,10 +67,6 @@ const Details = (props: any) => {
     imgs = workshopImgs;
     imgWidth = '50%';
     imgHeight = '50%';
-  } else if (obj.link === '#modeling') {
-    imgs = modelingImgs;
-    imgWidth = '50%';
-    imgHeight = '50%';
   } else if (obj.link === '#robots') {
     imgs = robotsImgs;
     imgWidth = '50%';
@@ -88,21 +83,21 @@ const Details = (props: any) => {
 
   return (
     <>
-      <Empty />
+      <Empty size={'l'} />
       <Title
         text={obj.title}
         textSize={'l'}
         textStyle={'normal'}
       />
-      <Empty />
+      <Empty size={'l'} />
 
       {obj.type
         ?
           <>
             <Paragraph text={['Type']} color={'black'} />
             <Spacer />
-            <Paragraph text={obj.type} color={'black'} />
-            <Empty />
+            <Paragraph text={obj.type} color={'black'} p={true} />
+            <Empty size={'s'} />
           </>
         : ''
       }
@@ -112,19 +107,31 @@ const Details = (props: any) => {
           <>
             <Paragraph text={['About']} color={'black'} />
             <Spacer />
-            <Paragraph text={obj.about} color={'black'} />
-            <Empty />
+            <Paragraph text={obj.about} color={'black'} p={true} />
+            <Empty size={'s'} />
           </>
         : ''
       }
 
-      {obj.role
+      {obj.role && obj.link !== '#emerge'
+        ?
+          <>
+            <Paragraph text={['Development']} color={'black'} />
+            <Spacer />
+            <Paragraph text={obj.role} color={'black'} p={true} />
+            <Empty size={'s'} />
+          </>
+        : ''
+      }
+
+      {obj.role && obj.link === '#emerge'
         ?
           <>
             <Paragraph text={['Development']} color={'black'} />
             <Spacer />
             <Paragraph text={obj.role} color={'black'} />
-            <Empty />
+            <Links links={obj.links} />
+            <Empty size={'s'} />
           </>
         : ''
       }
@@ -143,7 +150,7 @@ const Details = (props: any) => {
               ? <Images images={emerge2Imgs} width={'25%'} height={'25%'} />
               : ''
             }
-            <Empty />
+            <Empty size={'s'} />
           </>
         : ''
       }
@@ -158,7 +165,7 @@ const Details = (props: any) => {
                 <source src={robots} type="audio/mp3"></source>
               </audio>
             </div>
-            <Empty />
+            <Empty size={'s'} />
           </>
         : ''
       }
@@ -169,7 +176,7 @@ const Details = (props: any) => {
             <Paragraph text={['Videos']} color={'black'} />
             <Spacer />
             <Iframes iframes={obj.iframes} />
-            <Empty />
+            <Empty size={'l'} />
           </>
         : ''
       }
@@ -179,19 +186,19 @@ const Details = (props: any) => {
           <>
             <Paragraph text={['Technologies']} color={'black'} />
             <Spacer />
-            <Paragraph text={obj.technologies} color={'black'} />
-            <Empty />
+            <Paragraph text={obj.technologies} color={'black'} p={true} />
+            <Empty size={'s'} />
           </>
         : ''
       }
 
-      {obj.links
+      {obj.links && obj.link !== '#emerge'
         ?
           <>
             <Paragraph text={['Links']} color={'black'} />
             <Spacer />
             <Links links={obj.links} />
-            <Empty />
+            <Empty size={'l'} />
           </>
         : ''
       }

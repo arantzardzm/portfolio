@@ -14,30 +14,48 @@
   },
   "grabbd": {
     "title": "Grabbd**",
-    "type": ["Mobile and Web Application"],
+    "type": [
+      {
+        "paragraph": [
+          "Mobile Application",
+          "Web Application"
+        ]
+      }
+    ],
     "about": [
-      "Grabbd is a social media application that allows users to explore new venues, recommend favorite locations to friends, and create itineraries for upcoming trips.",
-      "We aim to create a fun and community-oriented experience. Our users can read and post reviews, upload images of the places they have been to, and, most importantly, 'grabb' places have they loved, liked, or want to try."
+      {
+        "paragraph": [
+          "Grabbd is a social media application that allows users to explore new venues, recommend favorite locations to friends, and create itineraries for upcoming trips.",
+          "Users can participate in a fun community where they can read and post reviews, upload images of the places they have been to, and, most importantly, \"grabb\" places they have loved, liked, or want to try."
+        ]
+      }
     ],
     "role": [
-      "My role in the application has been that of a full-stack developer.",
-      "I have been developing RESTful APIs in our application and facilitating the communication between our mobile application and our server and database.",
-      "I also designed and developed our scalable notification and email architecture through the use of queues and microservices. We now own a communication system that supports a growing user base of 500,000 users.",
-      "Additionally, I have been working on a B2B Content Management System for the businesses in our application. This tool is a place where they can manage their content and post offers for users browsing the application.",
-      "Through my developer and communication skills, I have managed to attain a leadership position. In less than a year, I managed to grow my skills and lead a team of two developers and two quality assurance testers."
+      {
+        "paragraph": [
+          "At Grabbd, I have worked as a full-stack developer creating RESTful APIs to facilitate the communication between our application, server, and database.",
+          "I have also designed and developed a scalable notification and email architecture service through queues and microservices to support a growing user base of 500,000 users.",
+          "Additionally, I implemented a B2B Content Management System for the businesses in our application. This tool is a place where companies can manage their content and post offers for users browsing the application.",
+          "Through my developer and communication skills, I attained a leadership position. And I am now leading a team of two developers and two quality assurance testers."
+        ]
+      }
     ],
     "technologies": [
-      "Swift",
-      "Kotlin",
-      "React.js",
-      "Node.js",
-      "Javascript",
-      "RabbitMQ",
-      "MySQL",
-      "Redis",
-      "Microservice Architecture",
-      "Serverless Architecture",
-      "AWS"
+      {
+        "paragraph": [
+          "Swift",
+          "Kotlin",
+          "React.js",
+          "Node.js",
+          "Javascript",
+          "RabbitMQ",
+          "MySQL",
+          "Redis",
+          "Microservice Architecture",
+          "Serverless Architecture",
+          "AWS"
+        ]
+      }
     ],
     "links": [
       { "text": "Website", "link": "https://grabbd.com/" },
@@ -48,30 +66,48 @@
   },
   "tamm": {
     "title": "Tamm",
-    "type": ["Web Application"],
+    "type": [
+      {
+        "paragraph": [
+          "Web Application"
+        ]
+      }
+    ],
     "about": [
-      "Tamm is a wide-scale project by the Abu Dhabi Digital Authority that seeks to transform and migrate the entirety of the government's 2000 services, spanning 80 governmental entities, with currently over 140 websites and 80 apps, on to a singular e-government platform. Abu Dhabi citizens, residents, businesses, and visitors can apply for multiple services online, interact with customer service, and track the status of their applications.",
-      "",
-      "Tamm provides access to government services such as:",
-      "- Payment of utility bills, traffic fines, parking, toll-gates",
-      "- Requesting medical appointments and treatments",
-      "- Buying housing and property",
-      "- Applying for citizenship and residency",
-      "- Requesting investment licenses and business opportunities",
-      "- Organizing entertainment and events.",
-      "",
-      "\"The TAMM application is part of the government’s vision to facilitate the lives and prosperity of its customers and improve the economic environment for businesses via unified access points.\""
+      {
+        "paragraph": [
+          "Tamm is a wide-scale project by the Abu Dhabi Digital Authority that seeks to transform and migrate the entirety of the government's 2000 services, spanning 80 governmental entities, with currently over 140 websites and 80 apps, on to a singular e-government platform. Abu Dhabi citizens, residents, businesses, and visitors can apply for multiple services online, interact with customer service, and track the status of their applications."
+        ]
+      },
+      {
+        "paragraph": [
+          "Tamm provides access to government services such as:",
+          "- Payment of utility bills, traffic fines, parking, toll-gates",
+          "- Requesting medical appointments and treatments",
+          "- Buying housing and property",
+          "- Applying for citizenship and residency",
+          "- Requesting investment licenses and business opportunities",
+          "- Organizing entertainment and events."
+        ]
+      }
     ],
     "role": [
-      "My role as a developer was to work alongside three entities to develop and integrate their online services.",
-      "During my time at Tamm, I implemented a total of 25 individual online services for the Department of Health, the Department of Community Development, and the Social Care and Minors Affairs Foundation. All services were estimated to cut process times by 39%.",
-      "Additionally, I led a team of three senior developers, a quality automation engineer, and a business analyst to develop an online dashboard for the Department of Health that integrated with 90+ more services."
+      {
+        "paragraph": [
+          "At Tamm, I worked with a team to implement 25 individual online services for three different government entities: the Department of Health, the Department of Community Development, and the Social Care and Minors Affairs Foundation. All services were estimated to cut process times by 39%.",
+          "Additionally, I led a team of three senior developers, a quality automation engineer, and a business analyst to develop an online dashboard for the Department of Health that integrated with 90+ more services."
+        ]
+      }
     ],
     "technologies": [
-      "React.js",
-      "Node.js",
-      "Typescript",
-      "Microservice Architecture"
+      {
+        "paragraph": [
+          "React.js",
+          "Node.js",
+          "Typescript",
+          "Microservice Architecture"
+        ]
+      }
     ],
     "links": [
       { "text": "Website", "link": "https://www.tamm.abudhabi/en" }
@@ -80,37 +116,79 @@
   },
   "gitex": {
     "title": "GITEX Lego Smart City**",
-    "type": ["Smart City / IoT"],
+    "type": [
+      {
+        "paragraph": [
+          "Smart City",
+          "Internet of Things"
+        ]
+      }
+    ],
     "about": [
-      "GITEX is one of the biggest technology conferences in the world held in Dubai every year. It displays over 4800 exhibitors from 97+ countries and over 100,000 visitors. During a week, the conference gathers the world’s technology leaders, enterprises, and startups to showcase the future of every business and every industry."
+      {
+        "paragraph": [
+          "GITEX is one of the biggest technology conferences in the world held in Dubai every year. It displays over 4800 exhibitors from 97+ countries and over 100,000 visitors. During a week, the conference gathers the world’s technology leaders, enterprises, and startups to showcase the future of every business and every industry."
+        ]
+      }
     ],
     "role": [
-      "My role for this project was to build a LEGO Smart City with over 15,000 LEGO pieces, 15 Arduino sensors, and 1 Raspberry Pi to demonstrate five data‐driven scenarios:",
-      "",
-      "- Air quality detection system",
-      "My teammate and I used a temperature and humidity sensor to measure the heat and moisture of the surrounding environment of our LEGO city. Whenever the temperature or the humidity went over a certain threshold, the system alerted our CRM platform.",
-      "",
-      "- Traffic management system",
-      "We trained our computer vision model using multiple photos with different angles of our LEGO cars. We placed a camera on top of our LEGO buildings to measure the number of LEGO cars on the street. We chose to represent traffic congestion with three LEGO cars. Once the camera detected more than this number, the system issued another alert to our CRM system.",
-      "",
-      "- Garbage disposal overflow system",
-      "We used distance sensors to detect the filled percentage of the LEGO garbage disposal. We placed one sensor in the middle and another sensor at the top of the bin. Every time the LEGO garbage blocks reached the top sensor, the CRM system received an alert with a clearing request.",
-      "",
-      "- Smart parking system",
-      "We used light sensors in the LEGO parking lot to detect whenever our LEGO cars had taken up the parking spots. Whenever a LEGO car became parked, the system triggered an alert to the CRM system to display the taken and available places.",
-      "",
-      "- Train incident detection system",
-      "We built a railroad system that bordered the outside of our LEGO city. The train that went around the railroad tracks had a distance sensor at the front. Each time we placed an obstacle in front of it, it would automatically stop and trigger another alert to the CRM system. The train would only restart after someone removed the obstruction from the way.",
-      "",
-      "All Smart City sensors were integrated with the Microsoft Dynamics CRM platform and visualized the real-time values on a screen.",
-      "",
-      "The project was completed in under three weeks by my team member, Shunya Watanabe, and me. And it was exhibited for five days at GITEX Technology Week."
+      {
+        "paragraph": [
+          "My team member, Shunya Watanabe, and I built a LEGO smart city in under three weeks and exhibited it for five days at GITEX Technology Week.",
+          "The LEGO city contained over 15,000 LEGO pieces, 15 Arduino sensors, and 1 Raspberry Pi to demonstrate five data‐driven scenarios:"
+        ]
+      },
+      {
+        "paragraph": [
+          "- Air quality detection system",
+          "A temperature and humidity sensor measured the heat and moisture of the surrounding environment of the LEGO city. Whenever the temperature or the humidity went over a certain threshold, the sensor alerted the CRM system."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Traffic management system",
+          "A computer vision model, trained with multiple photos, measured the number of LEGO cars on the street. We chose to represent traffic congestion with three LEGO cars. Once the camera detected more than this number, the system issued another alert to the CRM system."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Garbage disposal overflow system",
+          "Distance sensors detected the filled percentage of the LEGO garbage disposal. We placed one sensor in the middle and another sensor at the top of the bin. Every time the LEGO garbage blocks reached the top sensor, the CRM system received an alert with a clearing request."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Smart parking system",
+          "Light sensors in the parking lot detected when the LEGO cars had taken up a spot. This action triggered an alert to the CRM system and displayed the taken and available places."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Train incident detection system",
+          "The LEGO city contained a railroad system at its borders. The train that went around the railroad tracks had a distance sensor at the front. Each time the sensor detected an obstacle in front of it, it would automatically stop and trigger another alert to the CRM system. The train would only restart after the obstruction was removed from its way."
+        ]
+      },
+      {
+        "paragraph": [
+          "All smart city sensors were integrated with the Microsoft Dynamics CRM platform and visualized the real-time values on a screen."
+        ]
+      },
+      {
+        "paragraph": [
+          "This project was a joint collaboration between PwC and Microsoft."
+        ]
+      }
     ],
     "technologies": [
-      "Arduino",
-      "Raspberry PI",
-      "Node.js",
-      "Microsoft Dynamics CRM"
+      {
+        "paragraph": [
+          "Arduino",
+          "Raspberry PI",
+          "Node.js",
+          "Microsoft Dynamics CRM",
+          "LEGO building skills"
+        ]
+      }
     ],
     "links": [
       { "text": "Website", "link": "https://gitex.com//" }
@@ -119,61 +197,121 @@
   },
   "emerge": {
     "title": "EMERGE**",
-    "type": ["Android Mobile Application", "Capstone Project"],
+    "type": [
+      {
+        "paragraph": [
+          "Android Mobile Application",
+          "Undergraduate Capstone Project"
+        ]
+      }
+    ],
     "about": [
-      ""
+      {
+        "paragraph": [
+          "EMERGE is a mobile content creation and distribution application that enables the diffusion of locally produced content in emerging countries.",
+          "By creating a community-driven ecosystem, the goal of my application is to create a platform that gives users an efficient way of generating and accessing relevant information to improve their economic, social, and technological status."
+        ]
+      }
     ],
     "role": [
-      ""
+      "You can read more about my project in my capstone paper."
     ],
     "technologies": [
-      "Android",
-      "Linux",
-      "Apache",
-      "MySQL",
-      "Python"
+      {
+        "paragraph": [
+          "Android",
+          "Linux",
+          "Apache",
+          "MySQL",
+          "Python"
+        ]
+      }
     ],
     "links": [
-      { "text": "PDF", "link": "https://www.arantzardzm.com/documents/emerge.pdf" }
+      { "text": "Link to Paper", "link": "https://www.arantzardzm.com/documents/emerge.pdf" }
     ],
     "link": "#emerge"
   },
   "maze": {
     "title": "The Maze*",
-    "type": ["Video Game"],
+    "type": [
+      {
+        "paragraph": [
+          "Video Game",
+          "First-person Game",
+          "Multiplayer Game"
+        ]
+      }
+    ],
     "about": [
-      "you are lost in an island with three mazes.",
-      "your objective is to find a way out of them.",
-      "the controllers alone will not work.",
-      "you must use other physical inputs to win the game",
-      "do not be afraid to seek help.",
-      "good luck!"
+      {
+        "paragraph": [
+          "The Maze is a 3D multiplayer first-person game where the protagonist is lost on an island and must find a way out of the three mazes to win.",
+          "The inspiration for it was the theme of disruption: a situation where a disturbance or a problem interrupts a process. It took me several iterations, but finally, I came up with a concept that resonated with me.",
+          "I transformed a one-player game into a multiplayer one. To exit all three mazes, the player must find someone else to help move the main character. There is no way in which one person can complete the game alone."
+        ]
+      }
     ],
     "role": [
-      "The Maze is a 3D multiplayer first-person game where the protagonist is lost on an island and must find a way out of the three mazes to win. My inspiration for it was the theme of disruption: a situation where a disturbance or problem interrupts a process. The game went through several iterations before successfully implementing a concept that resonated with me.",
-      "",
-      "I transformed a one-player game into a multiplayer one. To exit all three mazes, the player must find someone else to help move the main character. There is no way in which one person can complete the game alone.",
-      "",
-      "I divided the job into three different tasks: designing the level and creating the digital and physical player interactions.",
-      "",
-      "For designing the level, I used Unity’s 3D Game Kit to import game assets such as walls, gates, cliffs, and gems. I distributed these assets throughout the environment and created three mazes. The first maze has short walls and no dead ends. Its purpose is to let the players get acquainted with the controls. The second maze is larger, has taller walls, has less light, and has several dead ends. The players should already be familiar with the controls and should experience more of a challenge. The third and last maze is larger than the second, has taller walls, more dead ends, and no light. This is the most challenging game and its purpose is to bring more players to participate in the experience. In addition to the maze construction, I added some gems to indicate a correct direction within them, however, since each maze is supposed to increase the difficulty of the game, the latter mazes have fewer gems in them.",
-      "",
-      "For the digital player interactions, I wrote and assigned scripts to objects in Unity. The first-person player model needed scripts for walking, rotating, and turning on a light. The gem model needed a script for changing color when interacting with the player to show that that path had already been walked through. The third maze needed a script for diming all lights when the player entered it. I also write a script that gave instructions to the player.",
-      "",
-      "For the physical multiplayer interactions, I used the Makey Makey kit to map physical inputs directly to the computer keyboard. I designed and laser cut two acrylic boxes that served as the buttons that could make a single player rotate left or right and two players to move forward. Nonetheless, I connected the circuits in such a way that two players would need to hold the buttons and hold hands at the same time to move forward. Additionally, I created a third acrylic circular piece that when touched would turn on a light. The inputs were placed at a far enough distance that a single player could not reach all of them, thus needing another player to play the game.",
-      "",
-      "My initial idea was to create a game where the player would find themselves in an isolated environment. Yet, I needed something extra to drive forward the concept of disruption. I am happy that I was able to find a way that I was able to use the concept to make an intended single-player isolated game into a collaborative and communicative multiplayer one. One cannot go through the game alone.",
-      "",
-      "When playtesting the game, some players took a while to understand the controls, but others got the hang of it pretty quickly. Overall though, they all understood that to succeed, they had to properly communicate: When should someone rotate? Which direction should one rotate to? When should someone press the light button? Whether the players succeeded in going through all three mazes or simply played the game for two minutes, I could see that everyone was laughing and having a good time. I received a lot of positive feedback with regards to the hand holding. Many enjoyed the connection and the communication needed with someone else to win the game.",
-      "I enjoyed the fact that I was able to create a digital game that needed some sort of physical interaction between people to be beaten. I liked the idea of transforming a first-person player into something that many people can participate in. When I tried it for the first time, ten people were holding hands. Everyone knew that if someone let go, the player would be unable to move forward. That is why the idea of everyone contributing, even if a little bit, to the same objective, really engaged everyone.",
-      "",
-      "I believe that the connections created out of disruption are the true meaning of the game."
+      {
+        "paragraph": [
+          "- Rules",
+          "you are lost in an island with three mazes.",
+          "your objective is to find a way out of them.",
+          "the controllers alone will not work.",
+          "you must use other physical inputs to win the game.",
+          "do not be afraid to seek help.",
+          "good luck!"
+        ]
+      },
+      {
+        "paragraph": [
+          "- Design",
+          "I divided the job into three tasks: designing the level, creating the digital, and creating physical player interactions."
+        ]
+      },
+      {
+        "paragraph": [
+          "For designing the level, I used Unity’s 3D Game Kit. I imported and distributed walls, gates, cliffs, and gems assets and throughout the environment.",
+          "I built the first maze with short walls, no dead ends, and full sunlight. My goal was to help the player get acquainted with the controls. I developed the second maze with taller walls, some dead ends, and little sunlight. By this point, the players should already be familiar with the controls. I created the third and last maze with the tallest walls, several dead ends, and no sunlight. I wanted this to be the most challenging task and bring more players to participate in the experience.",
+          "In addition to the maze construction, I added some gems to indicate a correct direction. However, since each maze increases the game difficulty, the last mazes have fewer gems in them."
+        ]
+      },
+      {
+        "paragraph": [
+          "For the digital player interactions, I wrote and assigned scripts to objects in Unity. I created walking, rotating, and light switch scripts for the first-person player model. I added a script for changing colors for the gem model. And finally, I created a script for dimming lights when the player entered the third maze."
+        ]
+      },
+      {
+        "paragraph": [
+          "For the physical multiplayer interactions, I used three physical controllers and the Makey Makey kit (a kit that allows a developer to map physical inputs directly to the computer keyboard).",
+          "I designed and used the laser cutter to produce two acrylic boxes that served as the buttons that could make a single player rotate left or right and two players to move forward. I also built a third acrylic circular piece that when touched, would turn on a light.",
+          "I connected the circuits of the controllers in such a way that two players would need to hold the buttons and hold hands to move forward. I placed the inputs at a far enough distance that a single player could not reach all of them, thus needing another player to play the game."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Playtesting",
+          "When playtesting the game, some players took a while to understand the controls, but others got the hang of it pretty quickly. Overall though, they all understood that to succeed, they had to properly communicate: When should someone rotate? Which direction should one rotate to? When should someone press the light button? Whether the players succeeded in going through all three mazes or simply played the game for two minutes, I could see that everyone was laughing and having a good time. I received a lot of positive feedback with regards to the hand holding. Many enjoyed the connection and the communication needed with someone else to win the game."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Concluding Thoughts",
+          "I enjoyed the fact that I was able to create a digital game that needed some sort of physical interaction between people to be beaten. When I tried it for the first time, ten people were holding hands. Everyone knew that if someone let go, the player would be unable to move forward.",
+          "My initial idea was to create a game where the player would find themselves in an isolated environment. Yet, I needed something extra to drive forward the concept of disruption. I am happy that I was able to find a way that I was able to use the concept to make an intended single-player isolated game into a collaborative and communicative multiplayer one. One cannot go through the game alone."
+        ]
+      }
     ],
     "technologies": [
-      "Blender",
-      "Unity",
-      "Arduino Makey Makey",
-      "C#"
+      {
+        "paragraph": [
+          "Blender",
+          "Unity",
+          "Arduino Makey Makey",
+          "C#"
+        ]
+      }
     ],
     "iframes": [
       { "link": "https://player.vimeo.com/video/638353759", "width": "500px", "height": "500px" },
@@ -183,164 +321,273 @@
   },
   "karkhana": {
     "title": "Karkhana*",
-    "type": ["Educational Website"],
+    "type": [
+      {
+          "paragraph": [
+            "Educational Website"
+          ]
+      }
+    ],
     "about": [
-      "An educational model for students in Nepal."
+      {
+        "paragraph": [
+          ""
+        ]
+      }
     ],
     "role": [
-      "my role in this"
+      {
+        "paragraph": [
+          ""
+        ]
+      }
     ],
     "technologies": [
-      "HTML",
-      "CSS",
-      "Javascript"
+      {
+        "paragraph": [
+          "HTML",
+          "CSS",
+          "Javascript",
+          "P5"
+        ]
+      }
     ],
     "link": "#karkhana"
   },
   "stranded": {
     "title": "Stranded",
-    "type": ["Interactive Game"],
+    "type": [
+      {
+        "paragraph": [
+          "Interactive Game"
+        ]
+      }
+    ],
     "about": [
-      "An interactive game model."
+      {
+        "paragraph": [
+          ""
+        ]
+      }
     ],
     "role": [
-      "my role in this"
+      {
+        "paragraph": [
+          ""
+        ]
+      }
     ],
     "technologies": [
-      "Blender",
-      "Unity",
-      "C#"
+      {
+        "paragraph": [
+          "Blender",
+          "Unity",
+          "C#"
+        ]
+      }
     ],
     "link": "#stranded"
   },
   "square": {
     "title": "Square Escape",
-    "type": ["Interactive Game"],
+    "type": [
+      {
+        "paragraph": [
+          "Interactive Game"
+        ]
+      }
+    ],
     "about": [
-      "An interactive game model."
+      {
+        "paragraph": [
+          ""
+        ]
+      }
     ],
     "role": [
-      "my role in this"
+      {
+        "paragraph": [
+          ""
+        ]
+      }
     ],
     "technologies": [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "P5"
+      {
+        "paragraph": [
+          "HTML",
+          "CSS",
+          "Javascript",
+          "P5"
+        ]
+      }
     ],
     "link": "#square"
   },
   "workshop": {
     "title": "3D Blender Workshop",
-    "type": ["Workshop"],
+    "type": [
+      {
+        "paragraph": [
+          "Workshop"
+        ]
+      }
+    ],
     "about": [
-      "A workshop for students"
+      {
+        "paragraph": [
+          "Blender is an open source graphics software used for creating animated films, visual effects, generative art, 3D prints, and video games."
+        ]
+      }
     ],
     "role": [
-      "my role in this"
+      {
+        "paragraph": [
+          "I gave an introductory Blender 3D workshop at my university, NYU Abu Dhabi to 20+ students. I wanted to introduce more students to this software :)."
+        ]
+      }
     ],
     "technologies": [
-      "Blender"
+      {
+        "paragraph": [
+          "Blender"
+        ]
+      }
+    ],
+    "links": [
+      { "text": "Workshop", "link": "https://github.com/arantzardzm/intro-to-blender-workshop/wiki" }
     ],
     "link": "#workshop"
   },
-  "modeling": {
-    "title": "3D Modeling Environment",
-    "type": ["3D Model"],
-    "about": [
-      "A model for class"
-    ],
-    "role": [
-      "my role in this"
-    ],
-    "technologies": [
-      "Blender"
-    ],
-    "link": "#modeling"
-  },
   "robots": {
     "title": "Revolver (Agnes and George)*",
-    "type": ["Robot Performance"],
+    "type": [
+      {
+        "paragraph": [
+          "Robot Performance",
+          "Generative Art",
+          "Textual Art"
+        ]
+      }
+    ],
     "about": [
-      "The Revolver (Agnes and George) was the final project collaboration for the Software Art Text and Performing Robots classes. It was presented at the end of the semester at New York University Abu Dhabi."
+      {
+        "paragraph": [
+          "My classmate, Reine DeFranco, and I conceptualized and built The Revolver (Agnes and George) for our Software Art Text and Performing Robots Classes. It was presented at the end of the semester at New York University Abu Dhabi.",
+          "Reine built the robot and I focused on the generative text, audio, and images for the presentation."
+        ]
+      }
     ],
     "role": [
-      "My work for the robot performance was split mostly into three parts: text, audio, and image.",
-      "",
-      "-Text",
-      "The text used for the project was generated in four steps. First, I wrote two sentences: one related to life and one related to death. Then, I used Wordnik, an online English dictionary, to process the initial sentences I had written and find definitions and phrases for nouns and adjectives. These were written to two different textual databases. Next, I used the Markov Chain generator to create cyclical sentences using sequence probability and databases as input. Finally, I ran the generator several times until I had several paragraphs I could use for my final poem.",
-      "",
-      "-Audio",
-      "We decided the robot would not recite any of the lines in the poem. Instead, the audio would serve as a narrative, a reflection of cycles, beginnings and endings, and life as a whole. I used an online text-to-speech website to record the voices of Agnes and George. I wanted to make the poem as real and as human as I possibly could. The poem spoke about religion, love, fear, life, and death, and I needed robots that could feel and show emotion. Using both male and female voices helped. People were able to relate to both sides. In addition to that, I added several voices towards the end. The multiplicity of voices and the increase in movement of the robotic metal balls matched the end of the poem and the state of being dead.",
-      "",
-      "-Image",
-      "For the visuals, I used open frameworks and a wall projection. The sketch consisted of blue and yellow circles being drawn over and over again on a fading black background. I tried to match the colors of Agnes to the colors of life. It was very important for me to tell a story with the image, thus I modified variables as the poem progressed. In the final version, circles increase in size and change in color as life moves to death. In the end, all the circles disappear from the screen.",
-      "",
-      "Poem:",
-      "",
-      "A circle, shaped like a plane curve everywhere.",
-      "Something, such as a ring, equidistant from a given fixed point: the center.",
-      "A circle, a continuous reproduction bounded as life;",
-      "The sphere of the present: representing everyday life.",
-      "A biography. At infinite. ",
-      "Continuing for a lifetime, lifelong, life process.",
-      "Continuing without beginning or end; existing outside of time.",
-      "",
-      "Make one’s circle, a source of one’s life.",
-      "Especially a person’s life.",
-      "Make one’s circle, something till death.",
-      "An ageless: personal flame, eternal flame, eternal moonwalk.",
-      "Led a good life. Not desperately or urgently.",
-      "Ran for the sense of one’s life. Human existing for the life of artist: painted with the beautiful, beautiful sin.",
-      "Being without beginning. Specific, characteristic manner of living: lifelong, lifelong.",
-      "Related a source of sight. Beginningly beautiful, stunningly endless.",
-      "",
-      "God. Endless God.",
-      "I couldn’t remember his name.",
-      "Not my life. Someone’s life.",
-      "I couldn’t remember his life for dear life.",
-      "Absolutely not. Not for any reason whatsoever.",
-      "I couldn’t remember his lifetime. For dear life!",
-      "A biography. A human existence, the particular course, the circle of life.",
-      "Liveliness or vitality that is full circuit in end or existence.",
-      "I couldn’t remember his name.",
-      "",
-      "Desperately or urgently, I ran for the characteristic state to regain course.",
-      "A person’s living point or end, enclosed at itself.",
-      "At surround; enclose. At surround; enclose.",
-      "An interruption of the spiritual environment. ",
-      "The time between birth and death.",
-      "The afterlife. The truths. ",
-      "The interval between birth and death.",
-      "The continuing point of nature.",
-      ",The interval of time between one’s birth and the present.",
-      "She led a good, long life.",
-      "She can’t remember his name.",
-      "",
-      "The act of dying: The heroine’s death",
-      "A planar region bounded by a circle. A vicious circle. A circle gainer.",
-      "The act of dying: The process that finishes at its starting point.",
-      "Fleeting glimpse, fleeting friendships, fleeting opportunities.",
-      "The act of dying: the termination and the extinction.",
-      "Fleeting continuously represented as a ring.",
-      "A circle, circle, circle.",
-      "",
-      "Passing.",
-      "Be the death’s door near death.",
-      "Be the center. A circle around.",
-      "The destroyer of life. The circle of life.",
-      "Move in a circle. A full circle.",
-      "To die, to death.",
-      "Death of him. Wrongful death of him.",
-      "Be the cause of being dead.",
-      "The extinction. The extinction of life.",
-      "The act of dying.",
-      "The state of being dead."
+      {
+        "paragraph": [
+          "My work for the robot performance was split mostly into three parts: text, audio, and image."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Text",
+          "The text used for the project was generated in four steps. First, I wrote two sentences: one related to life and one related to death. Then, I used Wordnik, an online English dictionary, to process the initial sentences I had written and find definitions and phrases for nouns and adjectives. These were written to two different textual databases. Next, I used the Markov Chain generator to create cyclical sentences using sequence probability and databases as input. Finally, I ran the generator several times until I had several paragraphs I could use for my final poem."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Audio",
+          "We decided the robot would not recite any of the lines in the poem. Instead, the audio would serve as a narrative, a reflection of cycles, beginnings and endings, and life as a whole. I used an online text-to-speech website to record the voices of Agnes and George. I wanted to make the poem as real and as human as I possibly could. The poem spoke about religion, love, fear, life, and death, and I needed robots that could feel and show emotion. Using both male and female voices helped. People were able to relate to both sides. In addition to that, I added several voices towards the end. The multiplicity of voices and the increase in movement of the robotic metal balls matched the end of the poem and the state of being dead."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Image",
+          "For the visuals, I used open frameworks and a wall projection. The sketch consisted of blue and yellow circles being drawn over and over again on a fading black background. I tried to match the colors of Agnes to the colors of life. It was very important for me to tell a story with the image, thus I modified variables as the poem progressed. In the final version, circles increase in size and change in color as life moves to death. In the end, all the circles disappear from the screen."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Poem",
+          "A circle, shaped like a plane curve everywhere.",
+          "Something, such as a ring, equidistant from a given fixed point: the center.",
+          "A circle, a continuous reproduction bounded as life;",
+          "The sphere of the present: representing everyday life.",
+          "A biography. At infinite. ",
+          "Continuing for a lifetime, lifelong, life process.",
+          "Continuing without beginning or end; existing outside of time."
+        ]
+      },
+      {
+        "paragraph": [
+          "Make one’s circle, a source of one’s life.",
+          "Especially a person’s life.",
+          "Make one’s circle, something till death.",
+          "An ageless: personal flame, eternal flame, eternal moonwalk.",
+          "Led a good life. Not desperately or urgently.",
+          "Ran for the sense of one’s life. Human existing for the life of artist: painted with the beautiful, beautiful sin.",
+          "Being without beginning. Specific, characteristic manner of living: lifelong, lifelong.",
+          "Related a source of sight. Beginningly beautiful, stunningly endless."
+        ]
+      },
+      {
+        "paragraph": [
+          "God. Endless God.",
+          "I couldn’t remember his name.",
+          "Not my life. Someone’s life.",
+          "I couldn’t remember his life for dear life.",
+          "Absolutely not. Not for any reason whatsoever.",
+          "I couldn’t remember his lifetime. For dear life!",
+          "A biography. A human existence, the particular course, the circle of life.",
+          "Liveliness or vitality that is full circuit in end or existence.",
+          "I couldn’t remember his name."
+        ]
+      },
+      {
+        "paragraph": [
+          "Desperately or urgently, I ran for the characteristic state to regain course.",
+          "A person’s living point or end, enclosed at itself.",
+          "At surround; enclose. At surround; enclose.",
+          "An interruption of the spiritual environment. ",
+          "The time between birth and death.",
+          "The afterlife. The truths. ",
+          "The interval between birth and death.",
+          "The continuing point of nature.",
+          ",The interval of time between one’s birth and the present.",
+          "She led a good, long life.",
+          "She can’t remember his name."
+        ]
+      },
+      {
+        "paragraph": [
+          "The act of dying: The heroine’s death",
+          "A planar region bounded by a circle. A vicious circle. A circle gainer.",
+          "The act of dying: The process that finishes at its starting point.",
+          "Fleeting glimpse, fleeting friendships, fleeting opportunities.",
+          "The act of dying: the termination and the extinction.",
+          "Fleeting continuously represented as a ring.",
+          "A circle, circle, circle."
+        ]
+      },
+      {
+        "paragraph": [
+          "Passing.",
+          "Be the death’s door near death.",
+          "Be the center. A circle around.",
+          "The destroyer of life. The circle of life.",
+          "Move in a circle. A full circle.",
+          "To die, to death.",
+          "Death of him. Wrongful death of him.",
+          "Be the cause of being dead.",
+          "The extinction. The extinction of life.",
+          "The act of dying.",
+          "The state of being dead."
+        ]
+      }
     ],
     "technologies": [
-      "Python",
-      "openFrameworks",
-      "C++"
+      {
+        "paragraph": [
+          "Python",
+          "openFrameworks",
+          "C++"
+        ]
+      }
     ],
     "iframes": [
       { "link": "https://player.vimeo.com/video/641058159", "width": "500px", "height": "500px" }
@@ -349,16 +596,34 @@
   },
   "sphere": {
     "title": "Sphere",
-    "type": ["Generative art"],
+    "type": [
+      {
+        "paragraph": [
+          "Generative Art"
+        ]
+      }
+    ],
     "about": [
-      "a small script to create a sphere"
+      {
+        "paragraph": [
+          ""
+        ]
+      }
     ],
     "role": [
-      "my role in this"
+      {
+        "paragraph": [
+          ""
+        ]
+      }
     ],
     "technologies": [
-      "openFrameworks",
-      "C++"
+      {
+        "paragraph": [
+          "openFrameworks",
+          "C++"
+        ]
+      }
     ],
     "iframes": [
       { "link": "https://player.vimeo.com/video/288946104", "width": "500px", "height": "500px" }
@@ -367,30 +632,63 @@
   },
   "colors": {
     "title": "Colors",
-    "type": ["Generative art"],
+    "type": [
+      {
+        "paragraph": [
+          "Generative art"
+        ]
+      }
+    ],
     "about": [
-      "The Colors of Emotion is a generative art piece, which draws inspiration from the Recode Project."
+      {
+        "paragraph": [
+          "The Colors of Emotion is a generative art piece, which draws inspiration from the Recode Project."
+        ]
+      }
     ],
     "role": [
-      "The Colors of Emotion is made up of squares and rectangles drawn across four different screens with randomness as a key characteristic and uniting component. The distinct color ranges encountered in each one of them has the purpose of conveying a specific emotion.",
-      "I used some rules during the writing of the code for the creation of the images:",
-      "",
-      "1. Stay within a specific range of colors",
-      "2. Use less fill and stronger line width for vivid emotions",
-      "3. Use more fill and weak line with for passive emotions",
-      "4. No white spaces",
-      "",
-      "The first piece, Passion, has a range of colors between red and orange. In many cultures, red is considered to be representative of passion or anger. I decided to represent the first one by using light orange and green colors, instead of dark black ones. This image has the least amount of filled squares and largest amount of sharper corners. That and the vivid colors definitely make it stand out more than the rest.",
-      "",
-      "The second piece, Sadness, has a range of colors between blue and purple with a couple of squares with yellow tones, standing out against the dark background. Blue is consider to represent nostalgia and sadness. I believe the increased fill in the squares and decreased thinness in the edges give the artwork more dimension and more strength.",
-      "",
-      "The third piece, Hope, has a color range between green and blue. This artwork does not stand out as much as the past two. Instead of displaying harsh colors, it displays softer tones. This is a peaceful work with a lot of fills and blended squares with the purpose of creating a soothing sensation for the person who views the piece.",
-      "",
-      "The fourth piece, Love, is filled with orange and pink tones. It is less aggressive than Passion and Sadness, but still a little more vivid than Hope. The pink squares almost blend in with each other and the screen. In addition to the blending, the width of the lines are also thinner and smoother. This combination really forms a softer piece which is more representative of the love emotion."
+      {
+        "paragraph": [
+          "The Colors of Emotion is made up of squares and rectangles drawn across four different screens with randomness as a key characteristic and uniting component. The distinct color ranges encountered in each one of them has the purpose of conveying a specific emotion.",
+          "I used some rules during the writing of the code for the creation of the images:"
+        ]
+      },
+      {
+        "paragraph": [
+          "1. Stay within a specific range of colors",
+          "2. Use less fill and stronger line width for vivid emotions",
+          "3. Use more fill and weak line with for passive emotions",
+          "4. No white spaces"
+        ]
+      },
+      {
+        "paragraph": [
+          "The first piece, Passion, has a range of colors between red and orange. In many cultures, red is considered to be representative of passion or anger. I decided to represent the first one by using light orange and green colors, instead of dark black ones. This image has the least amount of filled squares and largest amount of sharper corners. That and the vivid colors definitely make it stand out more than the rest."
+        ]
+      },
+      {
+        "paragraph": [
+          "The second piece, Sadness, has a range of colors between blue and purple with a couple of squares with yellow tones, standing out against the dark background. Blue is consider to represent nostalgia and sadness. I believe the increased fill in the squares and decreased thinness in the edges give the artwork more dimension and more strength."
+        ]
+      },
+      {
+        "paragraph": [
+          "The third piece, Hope, has a color range between green and blue. This artwork does not stand out as much as the past two. Instead of displaying harsh colors, it displays softer tones. This is a peaceful work with a lot of fills and blended squares with the purpose of creating a soothing sensation for the person who views the piece."
+        ]
+      },
+      {
+        "paragraph": [
+          "The fourth piece, Love, is filled with orange and pink tones. It is less aggressive than Passion and Sadness, but still a little more vivid than Hope. The pink squares almost blend in with each other and the screen. In addition to the blending, the width of the lines are also thinner and smoother. This combination really forms a softer piece which is more representative of the love emotion."
+        ]
+      }
     ],
     "technologies": [
-      "openFrameworks",
-      "C++"
+      {
+        "paragraph": [
+          "openFrameworks",
+          "C++"
+        ]
+      }
     ],
     "iframes": [
       { "link": "https://player.vimeo.com/video/288945094", "width": "500px", "height": "500px" },

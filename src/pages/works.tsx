@@ -138,13 +138,6 @@ const Works = (props: Props) => {
             <Paragraph text={['2017']} color={'white'} />
             <Spacer />
             <Title
-              text={works.modeling.title}
-              textSize={'s'}
-              textStyle={'italic'}
-              link={works.modeling.link}
-              click={selectWork}
-              />
-            <Title
               text={works.robots.title}
               textSize={'s'}
               textStyle={'italic'}
