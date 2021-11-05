@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3191ce0d.chunk.css",
-    "main.js": "/static/js/main.882188c4.chunk.js",
-    "main.js.map": "/static/js/main.882188c4.chunk.js.map",
+    "main.css": "/static/css/main.c7f4edcc.chunk.css",
+    "main.js": "/static/js/main.36d2fee8.chunk.js",
+    "main.js.map": "/static/js/main.36d2fee8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.31cd1e41.chunk.css": "/static/css/2.31cd1e41.chunk.css",
-    "static/js/2.ae484ad5.chunk.js": "/static/js/2.ae484ad5.chunk.js",
-    "static/js/2.ae484ad5.chunk.js.map": "/static/js/2.ae484ad5.chunk.js.map",
+    "static/js/2.8e7c8645.chunk.js": "/static/js/2.8e7c8645.chunk.js",
+    "static/js/2.8e7c8645.chunk.js.map": "/static/js/2.8e7c8645.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b6699f03c8a3e5cc8fc77869b83128e7.js": "/precache-manifest.b6699f03c8a3e5cc8fc77869b83128e7.js",
+    "precache-manifest.0d5dfcd6de016906c50cb3007bbb4288.js": "/precache-manifest.0d5dfcd6de016906c50cb3007bbb4288.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.31cd1e41.chunk.css.map": "/static/css/2.31cd1e41.chunk.css.map",
-    "static/css/main.3191ce0d.chunk.css.map": "/static/css/main.3191ce0d.chunk.css.map",
-    "static/js/2.ae484ad5.chunk.js.LICENSE.txt": "/static/js/2.ae484ad5.chunk.js.LICENSE.txt",
+    "static/css/main.c7f4edcc.chunk.css.map": "/static/css/main.c7f4edcc.chunk.css.map",
+    "static/js/2.8e7c8645.chunk.js.LICENSE.txt": "/static/js/2.8e7c8645.chunk.js.LICENSE.txt",
     "static/media/colors_0.jpg": "/static/media/colors_0.ba5cf235.jpg",
     "static/media/colors_1.jpg": "/static/media/colors_1.6a3b077d.jpg",
     "static/media/colors_2.jpg": "/static/media/colors_2.ea144128.jpg",
@@ -67,10 +67,6 @@
     "static/media/maze_6.jpg": "/static/media/maze_6.7c32361f.jpg",
     "static/media/maze_7.jpg": "/static/media/maze_7.767ec00d.jpg",
     "static/media/maze_8.jpg": "/static/media/maze_8.6e45ccf6.jpg",
-    "static/media/modeling_0.png": "/static/media/modeling_0.12d6e2ff.png",
-    "static/media/modeling_1.png": "/static/media/modeling_1.4a1f7dfe.png",
-    "static/media/modeling_2.png": "/static/media/modeling_2.b77b55b9.png",
-    "static/media/modeling_3.png": "/static/media/modeling_3.fd288342.png",
     "static/media/robots.mp3": "/static/media/robots.68f85a30.mp3",
     "static/media/robots_1.png": "/static/media/robots_1.b36fba06.png",
     "static/media/robots_2.png": "/static/media/robots_2.e3b880d8.png",
@@ -100,8 +96,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.31cd1e41.chunk.css",
-    "static/js/2.ae484ad5.chunk.js",
-    "static/css/main.3191ce0d.chunk.css",
-    "static/js/main.882188c4.chunk.js"
+    "static/js/2.8e7c8645.chunk.js",
+    "static/css/main.c7f4edcc.chunk.css",
+    "static/js/main.36d2fee8.chunk.js"
   ]
 }
