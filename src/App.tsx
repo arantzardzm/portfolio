@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // pages
-import { Home, About, Works, Contact } from './pages';
+import { Home, About, Works, Contact, NotFound } from './pages';
 
 // css styles
 import './styles/main.scss';
@@ -10,6 +10,7 @@ import './styles/home.scss';
 import './styles/about.scss';
 import './styles/works.scss';
 import './styles/contact.scss';
+import './styles/notFound.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route>
+            <NotFound />
           </Route>
         </Switch>
       </Router>
