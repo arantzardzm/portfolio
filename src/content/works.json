@@ -111,7 +111,9 @@
         ]
       }
     ],
-    "links": [{ "text": "Tamm Website", "link": "https://www.tamm.abudhabi/en" }],
+    "links": [
+      { "text": "Tamm Website", "link": "https://www.tamm.abudhabi/en" }
+    ],
     "link": "#tamm"
   },
   "gitex": {
@@ -226,7 +228,11 @@
     "title": "The Maze*",
     "type": [
       {
-        "paragraph": ["Interactive Game", "First-person Game", "Multiplayer Game"]
+        "paragraph": [
+          "Interactive Game",
+          "First-person Game",
+          "Multiplayer Game"
+        ]
       }
     ],
     "about": [
@@ -357,9 +363,14 @@
     ],
     "links": [
       { "text": "Karkhana Website", "link": "https://www.karkhana.asia/" },
-      { "text": "Presentation", "link": "https://www.arantzardzm.com/documents/karkhana.pdf" },
-      { "text": "Website Github Repository", "link": "https://github.com/arantzardzm/karkhana-tutorials" }
-
+      {
+        "text": "Presentation",
+        "link": "https://www.arantzardzm.com/documents/karkhana.pdf"
+      },
+      {
+        "text": "Website Github Repository",
+        "link": "https://github.com/arantzardzm/karkhana-tutorials"
+      }
     ],
     "link": "#karkhana"
   },
@@ -367,25 +378,54 @@
     "title": "Stranded",
     "type": [
       {
-        "paragraph": [
-          "Interactive Game",
-          "3D Game"
-        ]
+        "paragraph": ["Interactive Game", "3D Game"]
       }
     ],
     "about": [
       {
-        "paragraph": [""]
+        "paragraph": [
+          "Stranded is a game where the player is lost in a desert and needs to find water to survive.",
+          "My classmate, Hatim Benhsain and I, were inspired by the theme of reality-subversion, where opposites are true. In our game, the player must avoid the friendly foxes instead of the deadly snakes. To get to the water the player must climb and jump inside a volcano. Additionally, we wanted to give the player a sense of timelessness, where there is no clear-cut goal and no clear path to winning."
+        ]
       }
     ],
     "role": [
       {
-        "paragraph": [""]
+        "paragraph": [
+          "- Rules",
+          "you are stranded in the desert",
+          "find water."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Design",
+          " For the level design, we used a desert low-poly pack that included rocks, plants, and palm trees. We distributed the assets throughout the environment creating an explorable desert. We didn’t want to add a clear path for the player to follow because we wanted the player to explore and experience the feeling of being trapped in an interminable desert. We also modeled a 3D volcano and added an oasis inside it.",
+          "For the interactions, we wrote and assigned scripts to our models. The player was able to walk, jump, lose health, and die. The fox followed and attacked the player. The snake model followed and displayed hearts for the player."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Playtesting",
+          "After user playtesting, we decided to add a clearer path to the volcano while still allowing free wandering. And we also increased the difficulty of the game."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Concluding Thoughts",
+          "Stranded is a game that is capable of conveying narrative. The only instruction that the player ever receives is \" to find water\", which allows free wandering across the desert, the canyon, and the oasis. Once the player reaches the oasis, there is a no-win scenario. The player has found water and survived, but life still goes on. It is an interesting game to watch others play since there is no true end and the character's fate will always be unknown."
+        ]
       }
     ],
     "technologies": [
       {
         "paragraph": ["Blender", "Unity", "C#"]
+      }
+    ],
+    "links": [
+      {
+        "text": "Paper",
+        "link": "https://www.arantzardzm.com/documents/stranded.pdf"
       }
     ],
     "link": "#stranded"
