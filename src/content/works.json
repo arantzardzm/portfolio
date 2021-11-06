@@ -331,14 +331,26 @@
     "about": [
       {
         "paragraph": [
-          ""
+          "\"Karkhana Innovators’ Club (KIC) is an after-school enrichment program based in Kathmandu, Nepal designed to stimulate creativity, critical thinking, collaboration, risk taking and making skills necessary for innovation. The program is resource-intensive where students experiment with cutting edge technology. KIC is designed to teach concepts from Science, Technology, Engineering, Arts and Mathematics simultaneously.\""
         ]
       }
     ],
     "role": [
       {
         "paragraph": [
-          ""
+          "- Objective",
+          "As part of our class Making education, my group wanted to focus on the following: how can we improve self directed learning"
+        ]
+      },
+      {
+        "paragraph": [
+          "- Iterations",
+          "As part of our class Making education, my group wanted to focus on the following: how can we improve self directed learning"
+        ]
+      },
+      {
+        "paragraph": [
+          "- Website"
         ]
       }
     ],
@@ -606,14 +618,32 @@
     "about": [
       {
         "paragraph": [
-          ""
+          "The Sphere is a generative art piece. It seeks to explore the relationship between rotations, color, shapes, and stories."
         ]
       }
     ],
     "role": [
       {
         "paragraph": [
-          ""
+          "- Story",
+          "The story I’m trying to visually describe with The Sphere is a simple one: the transition of order into chaos. The art piece begins with small white cubes forming a controlled sphere that suddenly grows into a colorful mix of disorder and confusion. The important thing to understand about the art work is that both states and their transitions are equally beautiful."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Technique",
+          "The Sphere is formed by a series of cubes rotating around each other. This technique is achieved with a series of for loops that allow the cubes to rotate on the plane’s x-axis, y-axis, and z-axis. However, in addition to rotating on the plane, the cubes are also capable of rotating within themselves. Both types of rotations allow the emergence of a sphere. I intentionally used cubes to form the sphere because I wanted to show the ability certain shapes have to construct other shapes.",
+          "Besides rotations, The Sphere has also three important story components: distance, size, and color.",
+          "The distance between cubes allowed me to move the story forward by taking the viewer’s position into a completely different location. The story begins with the viewer outside of the sphere looking in. However as the cubes begin to drift apart, the user is able to enter the sphere and is able to find him/herself in a completely new world that wouldn’t have been posible before.",
+          "The size of the cubes also contributed to the overall mood. The story begins with small delicate cubes that transform into big chaotic ones in the middle that then disappear into nothingness in the end.",
+          "The color of the cubes is also important in the transition of the story. The cubes initially are drawn completely in white, and as the story progresses they change color. I chose a palette of blues and greens because I equated a sphere with nature and the planet Earth and I wanted it to be as close to that as possible."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Concluding Thoughts",
+          "The Sphere took me an incredibly long time to record. I had so many variables and so many ideas that I was unable to choose a specific storyline. I recorded multiple videos showing different perspectives of the cubes, the lines, the rotations, the colors, the sizes, and the expansions. They all have the same train of thought, but unique processes, and diverse endings.",
+          "If I could change a couple of things it would be having smoother transitions in the colors appearing and the increasing/decreasing of number of circles."
         ]
       }
     ],
@@ -626,12 +656,13 @@
       }
     ],
     "iframes": [
-      { "link": "https://player.vimeo.com/video/288946104", "width": "500px", "height": "500px" }
+      { "link": "https://player.vimeo.com/video/288946104", "width": "500px", "height": "500px" },
+      { "link": "https://www.youtube-nocookie.com/embed/Lx3uQn1_lBc", "width": "500px", "height": "500px" }
     ],
     "link": "#sphere"
   },
   "colors": {
-    "title": "Colors",
+    "title": "Colors of Emotion",
     "type": [
       {
         "paragraph": [
