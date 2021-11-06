@@ -3,7 +3,8 @@
     "title": "works.",
     "paragraph": [
       "These are the projects that I have worked or are currently working on.",
-      "I have always tried to experiment with as many technologies as possible. I truly believe that in order to become a better coder/designer/creator one has to try a little bit of everything and continue to learn.", "So you will be able to find in my projects a range from mobile apps, web apps, iot integrations, game apps, to generative art.",
+      "I have always tried to experiment with as many technologies as possible. I truly believe that in order to become a better coder/designer/creator one has to try a little bit of everything and continue to learn.",
+      "So you will be able to find in my projects a range from mobile apps, web apps, iot integrations, game apps, to generative art.",
       "",
       "The projects marked with a * represent my most creative projects. The ones that I really took the time to think beyond the code, and tried to give the users a meaningful experience.",
       "The projects marked with ** represent my most technical projects. The ones that I really focused on getting the architecture and and execution perfect.",
@@ -16,10 +17,7 @@
     "title": "Grabbd**",
     "type": [
       {
-        "paragraph": [
-          "Mobile Application",
-          "Web Application"
-        ]
+        "paragraph": ["Mobile Application", "Web Application"]
       }
     ],
     "about": [
@@ -59,8 +57,14 @@
     ],
     "links": [
       { "text": "Website", "link": "https://grabbd.com/" },
-      { "text": "iOS", "link": "https://apps.apple.com/us/app/grabbd-grab-share-places-you/id1060585858" },
-      { "text": "Android", "link": "https://play.google.com/store/apps/details?id=com.grabbd.app" }
+      {
+        "text": "iOS",
+        "link": "https://apps.apple.com/us/app/grabbd-grab-share-places-you/id1060585858"
+      },
+      {
+        "text": "Android",
+        "link": "https://play.google.com/store/apps/details?id=com.grabbd.app"
+      }
     ],
     "link": "#grabbd"
   },
@@ -68,9 +72,7 @@
     "title": "Tamm",
     "type": [
       {
-        "paragraph": [
-          "Web Application"
-        ]
+        "paragraph": ["Web Application"]
       }
     ],
     "about": [
@@ -109,19 +111,14 @@
         ]
       }
     ],
-    "links": [
-      { "text": "Website", "link": "https://www.tamm.abudhabi/en" }
-    ],
+    "links": [{ "text": "Website", "link": "https://www.tamm.abudhabi/en" }],
     "link": "#tamm"
   },
   "gitex": {
     "title": "GITEX Lego Smart City**",
     "type": [
       {
-        "paragraph": [
-          "Smart City",
-          "Internet of Things"
-        ]
+        "paragraph": ["Smart City", "Internet of Things"]
       }
     ],
     "about": [
@@ -190,9 +187,7 @@
         ]
       }
     ],
-    "links": [
-      { "text": "Website", "link": "https://gitex.com//" }
-    ],
+    "links": [{ "text": "Website", "link": "https://gitex.com//" }],
     "link": "#gitex"
   },
   "emerge": {
@@ -213,22 +208,17 @@
         ]
       }
     ],
-    "role": [
-      "You can read more about my project in my capstone paper."
-    ],
+    "role": ["You can read more about my project in my capstone paper."],
     "technologies": [
       {
-        "paragraph": [
-          "Android",
-          "Linux",
-          "Apache",
-          "MySQL",
-          "Python"
-        ]
+        "paragraph": ["Android", "Linux", "Apache", "MySQL", "Python"]
       }
     ],
     "links": [
-      { "text": "Link to Paper", "link": "https://www.arantzardzm.com/documents/emerge.pdf" }
+      {
+        "text": "Link to Paper",
+        "link": "https://www.arantzardzm.com/documents/emerge.pdf"
+      }
     ],
     "link": "#emerge"
   },
@@ -236,11 +226,7 @@
     "title": "The Maze*",
     "type": [
       {
-        "paragraph": [
-          "Video Game",
-          "First-person Game",
-          "Multiplayer Game"
-        ]
+        "paragraph": ["Video Game", "First-person Game", "Multiplayer Game"]
       }
     ],
     "about": [
@@ -305,17 +291,20 @@
     ],
     "technologies": [
       {
-        "paragraph": [
-          "Blender",
-          "Unity",
-          "Arduino Makey Makey",
-          "C#"
-        ]
+        "paragraph": ["Blender", "Unity", "Arduino Makey Makey", "C#"]
       }
     ],
     "iframes": [
-      { "link": "https://player.vimeo.com/video/638353759", "width": "500px", "height": "500px" },
-      { "link": "https://player.vimeo.com/video/638353729", "width": "500px", "height": "500px" }
+      {
+        "link": "https://player.vimeo.com/video/638353759",
+        "width": "500px",
+        "height": "500px"
+      },
+      {
+        "link": "https://player.vimeo.com/video/638353729",
+        "width": "500px",
+        "height": "500px"
+      }
     ],
     "link": "#maze"
   },
@@ -323,9 +312,7 @@
     "title": "Karkhana*",
     "type": [
       {
-          "paragraph": [
-            "Educational Website"
-          ]
+        "paragraph": ["Educational Website"]
       }
     ],
     "about": [
@@ -349,19 +336,12 @@
         ]
       },
       {
-        "paragraph": [
-          "- Website"
-        ]
+        "paragraph": ["- Website"]
       }
     ],
     "technologies": [
       {
-        "paragraph": [
-          "HTML",
-          "CSS",
-          "Javascript",
-          "P5"
-        ]
+        "paragraph": ["HTML", "CSS", "Javascript", "P5"]
       }
     ],
     "link": "#karkhana"
@@ -370,32 +350,22 @@
     "title": "Stranded",
     "type": [
       {
-        "paragraph": [
-          "Interactive Game"
-        ]
+        "paragraph": ["Interactive Game"]
       }
     ],
     "about": [
       {
-        "paragraph": [
-          ""
-        ]
+        "paragraph": [""]
       }
     ],
     "role": [
       {
-        "paragraph": [
-          ""
-        ]
+        "paragraph": [""]
       }
     ],
     "technologies": [
       {
-        "paragraph": [
-          "Blender",
-          "Unity",
-          "C#"
-        ]
+        "paragraph": ["Blender", "Unity", "C#"]
       }
     ],
     "link": "#stranded"
@@ -404,33 +374,63 @@
     "title": "Square Escape",
     "type": [
       {
-        "paragraph": [
-          "Interactive Game"
-        ]
+        "paragraph": ["Interactive Game", "2D Game"]
       }
     ],
     "about": [
       {
         "paragraph": [
-          ""
+          "Square Escape is a game where the player is a small box trying to escape a series of rooms to reach the outside world.",
+          "The theme for it was (as the name says) the theme of escape."
         ]
       }
     ],
     "role": [
       {
         "paragraph": [
-          ""
+          "- Rules",
+          "objective: reach the door before time runs out",
+          "how: use arrow keys to move around"
+        ]
+      },
+      {
+        "paragraph": [
+          "- Design",
+          "I designed five levels that the player needed to overcome to win the game. Each level increased the difficulty of the game:",
+          "-The time changed",
+          "-The number of barriers increased",
+          "-The movement and direction of the barriers varied",
+          "-The distance between the square and the door grew",
+          "-Keys were placed in different positions."
+        ]
+      },
+      {
+        "paragraph": [
+          "The player’s objective was to reach the door in time. Otherwise, they would have to restart the level. And each restart randomized the position of the barriers. I wanted to ensure that no game would be the same to represent how trying to escape a situation and failing could take the player back to the start completely."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Playtesting",
+          "When playtesting the game, the players gave me good feedback. The comments I mainly received were regarding the game difficulty. It was too hard, and the players were giving up too quickly. I implemented their observations and adjusted some of the levels."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Concluding Thoughts",
+          "I enjoyed working on this quick game. However, is still work that can be done and room to improve the player's experience."
         ]
       }
     ],
     "technologies": [
       {
-        "paragraph": [
-          "HTML",
-          "CSS",
-          "Javascript",
-          "P5"
-        ]
+        "paragraph": ["HTML", "CSS", "Javascript", "P5"]
+      }
+    ],
+    "links": [
+      {
+        "text": "PDF",
+        "link": "https://www.arantzardzm.com/documents/square.pdf"
       }
     ],
     "link": "#square"
@@ -439,9 +439,7 @@
     "title": "3D Blender Workshop",
     "type": [
       {
-        "paragraph": [
-          "Workshop"
-        ]
+        "paragraph": ["Workshop"]
       }
     ],
     "about": [
@@ -460,13 +458,14 @@
     ],
     "technologies": [
       {
-        "paragraph": [
-          "Blender"
-        ]
+        "paragraph": ["Blender"]
       }
     ],
     "links": [
-      { "text": "Workshop", "link": "https://github.com/arantzardzm/intro-to-blender-workshop/wiki" }
+      {
+        "text": "Workshop",
+        "link": "https://github.com/arantzardzm/intro-to-blender-workshop/wiki"
+      }
     ],
     "link": "#workshop"
   },
@@ -474,11 +473,7 @@
     "title": "Revolver (Agnes and George)*",
     "type": [
       {
-        "paragraph": [
-          "Robot Performance",
-          "Generative Art",
-          "Textual Art"
-        ]
+        "paragraph": ["Robot Performance", "Generative Art", "Textual Art"]
       }
     ],
     "about": [
@@ -594,15 +589,15 @@
     ],
     "technologies": [
       {
-        "paragraph": [
-          "Python",
-          "openFrameworks",
-          "C++"
-        ]
+        "paragraph": ["Python", "openFrameworks", "C++"]
       }
     ],
     "iframes": [
-      { "link": "https://player.vimeo.com/video/641058159", "width": "500px", "height": "500px" }
+      {
+        "link": "https://player.vimeo.com/video/641058159",
+        "width": "500px",
+        "height": "500px"
+      }
     ],
     "link": "#robots"
   },
@@ -610,9 +605,7 @@
     "title": "Sphere",
     "type": [
       {
-        "paragraph": [
-          "Generative Art"
-        ]
+        "paragraph": ["Generative Art"]
       }
     ],
     "about": [
@@ -649,15 +642,20 @@
     ],
     "technologies": [
       {
-        "paragraph": [
-          "openFrameworks",
-          "C++"
-        ]
+        "paragraph": ["openFrameworks", "C++"]
       }
     ],
     "iframes": [
-      { "link": "https://player.vimeo.com/video/288946104", "width": "500px", "height": "500px" },
-      { "link": "https://www.youtube-nocookie.com/embed/Lx3uQn1_lBc", "width": "500px", "height": "500px" }
+      {
+        "link": "https://player.vimeo.com/video/288946104",
+        "width": "500px",
+        "height": "500px"
+      },
+      {
+        "link": "https://www.youtube-nocookie.com/embed/Lx3uQn1_lBc",
+        "width": "500px",
+        "height": "500px"
+      }
     ],
     "link": "#sphere"
   },
@@ -665,9 +663,7 @@
     "title": "Colors of Emotion",
     "type": [
       {
-        "paragraph": [
-          "Generative art"
-        ]
+        "paragraph": ["Generative art"]
       }
     ],
     "about": [
@@ -715,18 +711,26 @@
     ],
     "technologies": [
       {
-        "paragraph": [
-          "openFrameworks",
-          "C++"
-        ]
+        "paragraph": ["openFrameworks", "C++"]
       }
     ],
     "iframes": [
-      { "link": "https://player.vimeo.com/video/288945094", "width": "500px", "height": "500px" },
-      { "link": "https://player.vimeo.com/video/288944828", "width": "500px", "height": "500px" }
+      {
+        "link": "https://player.vimeo.com/video/288945094",
+        "width": "500px",
+        "height": "500px"
+      },
+      {
+        "link": "https://player.vimeo.com/video/288944828",
+        "width": "500px",
+        "height": "500px"
+      }
     ],
     "links": [
-      { "text": "Recode Project", "link": "http://recodeproject.com/artwork/v1n2random-squares" }
+      {
+        "text": "Recode Project",
+        "link": "http://recodeproject.com/artwork/v1n2random-squares"
+      }
     ],
     "link": "#colors"
   }
