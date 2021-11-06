@@ -1,11 +1,15 @@
 {
   "mainTitle": "arantza rodriguez.",
-  "mainParagraph": ["i am a software developer and interactive media designer currently living and working in dubai."],
+  "mainParagraph": [
+    "i am a software developer and interactive media designer currently living and working in dubai."
+  ],
   "aboutTitle": "about.",
   "aboutParagraph": ["here you will be able to get to know me better."],
   "aboutLink": "/about",
   "workTitle": "works.",
-  "workParagraph": ["here you will be able to view some of my past and current projects."],
+  "workParagraph": [
+    "here you will be able to view some of my past and current projects."
+  ],
   "workLink": "/works",
   "contactTitle": "contact.",
   "contactParagraph": ["here you will be able to reach out to me."],

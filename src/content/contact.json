@@ -15,19 +15,24 @@
   ],
   "contactLinks": [
     {
-      "type": "github", "link": "https://github.com/arantzardzm"
+      "type": "github",
+      "link": "https://github.com/arantzardzm"
     },
     {
-      "type": "linkedin", "link": "https://www.linkedin.com/in/arantzardzm"
+      "type": "linkedin",
+      "link": "https://www.linkedin.com/in/arantzardzm"
     },
     {
-      "type": "cv", "link": "https://www.arantzardzm.com/documents/cv.pdf"
+      "type": "cv",
+      "link": "https://www.arantzardzm.com/documents/cv.pdf"
     },
     {
-      "type": "email", "link": "mailto:arantzairdzm@gmail.com"
+      "type": "email",
+      "link": "mailto:arantzairdzm@gmail.com"
     },
     {
-      "type": "behance", "link": "https://www.behance.net/arantzardzm"
+      "type": "behance",
+      "link": "https://www.behance.net/arantzardzm"
     }
   ]
 }

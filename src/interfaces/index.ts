@@ -1,7 +1,7 @@
 export interface TitleProps {
   text: string;
-  textSize: 'l' | 'm' | 's';
-  textStyle: 'normal' | 'italic';
+  textSize: "l" | "m" | "s";
+  textStyle: "normal" | "italic";
   link?: string;
   click?: Function;
 }
@@ -50,5 +50,5 @@ export interface NavigationProps {
 }
 
 export interface EmptyProps {
-  size?: 'l' | 'm' | 's';
+  size?: "l" | "m" | "s";
 }

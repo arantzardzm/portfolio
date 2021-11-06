@@ -56,13 +56,13 @@
       }
     ],
     "links": [
-      { "text": "Website", "link": "https://grabbd.com/" },
+      { "text": "Grabbd Website", "link": "https://grabbd.com/" },
       {
-        "text": "iOS",
+        "text": "Grabbd iOS Application",
         "link": "https://apps.apple.com/us/app/grabbd-grab-share-places-you/id1060585858"
       },
       {
-        "text": "Android",
+        "text": "Grabbd Android Application",
         "link": "https://play.google.com/store/apps/details?id=com.grabbd.app"
       }
     ],
@@ -111,7 +111,7 @@
         ]
       }
     ],
-    "links": [{ "text": "Website", "link": "https://www.tamm.abudhabi/en" }],
+    "links": [{ "text": "Tamm Website", "link": "https://www.tamm.abudhabi/en" }],
     "link": "#tamm"
   },
   "gitex": {
@@ -187,7 +187,7 @@
         ]
       }
     ],
-    "links": [{ "text": "Website", "link": "https://gitex.com//" }],
+    "links": [{ "text": "GITEX Website", "link": "https://gitex.com//" }],
     "link": "#gitex"
   },
   "emerge": {
@@ -216,7 +216,7 @@
     ],
     "links": [
       {
-        "text": "Link to Paper",
+        "text": "Paper",
         "link": "https://www.arantzardzm.com/documents/emerge.pdf"
       }
     ],
@@ -226,7 +226,7 @@
     "title": "The Maze*",
     "type": [
       {
-        "paragraph": ["Video Game", "First-person Game", "Multiplayer Game"]
+        "paragraph": ["Interactive Game", "First-person Game", "Multiplayer Game"]
       }
     ],
     "about": [
@@ -318,25 +318,36 @@
     "about": [
       {
         "paragraph": [
-          "\"Karkhana Innovators’ Club (KIC) is an after-school enrichment program based in Kathmandu, Nepal designed to stimulate creativity, critical thinking, collaboration, risk taking and making skills necessary for innovation. The program is resource-intensive where students experiment with cutting edge technology. KIC is designed to teach concepts from Science, Technology, Engineering, Arts and Mathematics simultaneously.\""
+          "Karkhana Innovators’ Club (KIC) is an after-school enrichment program based in Kathmandu, Nepal designed to stimulate creativity, critical thinking, collaboration, risk-taking, and making skills necessary for innovation.",
+          "Through my Making Education class at NYUAD, I had the opportunity to work and collaborate closely with the Karkhana team. I also traveled to Nepal to test and implement the project I worked on throughout the semester."
         ]
       }
     ],
     "role": [
       {
         "paragraph": [
-          "- Objective",
-          "As part of our class Making education, my group wanted to focus on the following: how can we improve self directed learning"
+          "- Challenge",
+          "One of the main goals of Karkhana over the past few years has been to create a learning environment that is as self directed as possible. Essentially an environment where students take responsibility of their own learning."
         ]
       },
       {
         "paragraph": [
           "- Iterations",
-          "As part of our class Making education, my group wanted to focus on the following: how can we improve self directed learning"
+          "My team, consisting of Laine Melkerte and Mateo Juvera, and I, brainstormed several ideas on how we could help students take ownership of their learning. We created a video, an interactive story, and a website. We user-tested all iterations with several participants and concluded that a website was the most engaging learning platform."
         ]
       },
       {
-        "paragraph": ["- Website"]
+        "paragraph": [
+          "- Website",
+          "The Karkhana Tutorials contain three different stories that target students in Kathmandu. Through engaging animations, appealing storylines, and relatable characters, each journey teaches students how to use Arduino kits in a simple way."
+        ]
+      },
+      {
+        "paragraph": [
+          "- Concluding Thoughts",
+          "Karkhana students and professors enjoyed going through the different journeys and mentioned they understood the concepts presented.",
+          "However, for future iterations, I would like to improve the tutorial creator experience. Currently, we only have two static tutorials. Nonetheless, I think it would be great to create a CMS platform where anyone could generate their own Arduino kit tutorial using our characters and animations. It would make the platform more unique since anyone would be able to contribute to it, not just our team."
+        ]
       }
     ],
     "technologies": [
@@ -344,13 +355,22 @@
         "paragraph": ["HTML", "CSS", "Javascript", "P5"]
       }
     ],
+    "links": [
+      { "text": "Karkhana Website", "link": "https://www.karkhana.asia/" },
+      { "text": "Presentation", "link": "https://www.arantzardzm.com/documents/karkhana.pdf" },
+      { "text": "Website Github Repository", "link": "https://github.com/arantzardzm/karkhana-tutorials" }
+
+    ],
     "link": "#karkhana"
   },
   "stranded": {
     "title": "Stranded",
     "type": [
       {
-        "paragraph": ["Interactive Game"]
+        "paragraph": [
+          "Interactive Game",
+          "3D Game"
+        ]
       }
     ],
     "about": [
@@ -429,7 +449,7 @@
     ],
     "links": [
       {
-        "text": "PDF",
+        "text": "Paper",
         "link": "https://www.arantzardzm.com/documents/square.pdf"
       }
     ],
@@ -463,7 +483,7 @@
     ],
     "links": [
       {
-        "text": "Workshop",
+        "text": "Github Workshop Repository",
         "link": "https://github.com/arantzardzm/intro-to-blender-workshop/wiki"
       }
     ],
