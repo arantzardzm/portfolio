@@ -5,9 +5,18 @@ import Col from 'react-bootstrap/Col';
 import Title from '../components/title';
 import Paragraph from '../components/paragraph';
 
-import { home } from '../content';
+import { home, contact } from '../content';
 
 interface Props {}
+
+const getLink = (type: string) => {
+  const link = contact.contactLinks.find((c) => c.type === type);
+  if (link) {
+    return link.link;
+  } else {
+    return "";
+  }
+}
 
 const Home = (props: Props) => {
   return (
@@ -28,37 +37,11 @@ const Home = (props: Props) => {
             </div>
           </Col>
           <Col className="home-description-wrapper">
-            <div>
-              <Title
-                text={home.aboutTitle}
-                textSize={'l'}
-                textStyle={'normal'}
-                link={home.aboutLink}
-              />
-              <Paragraph
-                text={home.aboutParagraph}
-                color={'white'}
-              />
-              <Title
-                text={home.workTitle}
-                textSize={'l'}
-                textStyle={'normal'}
-                link={home.workLink}
-              />
-              <Paragraph
-                text={home.workParagraph}
-                color={'white'}
-              />
-              <Title
-                text={home.contactTitle}
-                textSize={'l'}
-                textStyle={'normal'}
-                link={home.contactLink}
-              />
-              <Paragraph
-                text={home.contactParagraph}
-                color={'white'}
-              />
+            <div className="contact-link-wrapper">
+              <a href={getLink('github')} target="_blank" rel="noopener noreferrer"><i className='fa fa-github fa-2x contact-link'></i></a>
+              <a href={getLink('linkedin')} target="_blank" rel="noopener noreferrer"><i className='fa fa-linkedin fa-2x contact-link'></i></a>
+              <a href={getLink('cv')} target="_blank" rel="noopener noreferrer"><i className='fa fa-file-o fa-2x contact-link'></i></a>
+              <a href={getLink('email')} target="_blank" rel="noopener noreferrer"><i className='fa fa-envelope-o fa-2x contact-link'></i></a>
             </div>
           </Col>
         </Row>
