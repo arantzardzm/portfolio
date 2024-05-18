@@ -6,28 +6,48 @@
     },
     {
       "paragraph": [
-        "I was born and raised in a small, but beautiful city, in Mexico, called Queretaro."
+        "My journey in technology began when I was accepted to New York University Abu Dhabi, which took me to the United Arab Emirates to pursue a bachelor's degree in Computer Science, along with minors in Economics and Interactive Media and Technology."
       ]
     },
     {
       "paragraph": [
-        "After being accepted to New York University Abu Dhabi, I moved to the United Arab Emirates to pursue a bachelor's degree in Computer Science with a minor in Economics."
+        "I am a Full-Stack Software Developer with five years of professional experience, currently based in Bozeman, Montana. Over the years, I have gained extensive experience in building scalable solutions using various technologies, collaborating with diverse teams on projects that range from e-government initiatives to social impact applications."
       ]
     },
     {
       "paragraph": [
-        "I'm a Full-Stack Software Developer with three years of professional experience based in Dubai. I have a wide range of project experience building scalable solutions using various technologies.",
-        "I'm currently working remotely for Grabbd Inc, a unique mobile platform that allows users to discover new places and create personal city guides."
+        "I am proficient in technologies like Node.js, React.js, and Python, leveraging these skills to create innovative features and optimize performance across platforms. I am passionate about web development, augmented reality, virtual reality, and human-computer interaction, and I love tackling complex problems, pitching new ideas, and discovering new technologies."
+      ]
+    }
+  ],
+  "professionalTitle": "professional journey.",
+  "professionalDescription": [
+    {
+      "paragraph": [
+        "My professional journey includes significant projects such as:"
       ]
     },
     {
       "paragraph": [
-        "Some of my other interests include augmented reality, virtual reality, and human-computer interaction."
+        "- PwC Tamm: I contributed to the development of a comprehensive web application that unified various government services as part of a wide-scale e-government transformation initiative in Abu Dhabi.",
+        "- Grabbd Inc: I played a key role in building a unique mobile platform that enables users to discover new places and create personal city guides.",
+        "- ONEHOPE Wine: I architected and developed scalable solutions for this Napa-based winery, which has a strong social impact mission and has donated over $10M to various causes."
       ]
-    },
+    }
+  ],
+  "freelanceTitle": "freelance work.",
+  "freelanceDescription": [
     {
       "paragraph": [
-        "I'm a quick learner who loves to tackle problems, pitch ideas, and discover new stuff. And whenever I'm not writing code, I enjoy traveling, playing football, and eating food at new places!"
+        "As a freelancer, I have been working with Dory Welch Consulting to support the unification of a nonprofit organization in Wyoming, bringing my expertise in design and coding to their website."
+      ]
+    }
+  ],
+  "moreTitle": "more about me.",
+  "moreDescription": [
+    {
+      "paragraph": [
+        "When I’m not writing code, I enjoy traveling, playing football, and exploring new culinary delights. I'm always open to new opportunities and challenges. Let's create something amazing together!"
       ]
     }
   ]

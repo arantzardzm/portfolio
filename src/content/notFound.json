@@ -1,8 +1,4 @@
 {
-  "title": "page not found",
-  "paragraph": [
-    {
-      "paragraph": ["this page does not exist."]
-    }
-  ]
+  "mainTitle": "404: page not found",
+  "mainParagraph": ["this page does not exist."]
 }

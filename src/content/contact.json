@@ -2,14 +2,16 @@
   "contactTitle": "contact.",
   "contactDescription": [
     {
+      "paragraph": ["Thank you so much for your interest in my work!"]
+    },
+    {
       "paragraph": [
-        "Thank you so much for your interest in my work!",
-        "Please feel free to reach out to me on my personal email: arantzairdzm@gmail.com :)"
+        "Feel free to reach out to me via email at arantzairdzm@gmail.com. I’m always excited to discuss new opportunities and collaborations. My rates typically range between $45-$50 per hour, depending on the project scope and requirements."
       ]
     },
     {
       "paragraph": [
-        "You can also check out some of my other links listed below:"
+        "You can also explore more of my work and connect with me through the links below:"
       ]
     }
   ],

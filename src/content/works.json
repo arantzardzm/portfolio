@@ -6,24 +6,107 @@
       "I have always tried to experiment with as many technologies as possible. I truly believe that in order to become a better coder/designer/creator one has to try a little bit of everything and continue to learn.",
       "So you will be able to find in my projects a range from mobile apps, web apps, iot integrations, game apps, to generative art.",
       "",
-      "The projects marked with a * represent my most creative projects. The ones that I really took the time to think beyond the code, and tried to give the users a meaningful experience.",
-      "The projects marked with ** represent my most technical projects. The ones that I really focused on getting the architecture and and execution perfect.",
-      "",
       "Hope you enjoy viewing them as much as I enjoyed working on them :)"
     ],
     "link": "#main"
   },
-  "grabbd": {
-    "title": "Grabbd**",
+  "oxbow": {
+    "title": "Oxbow Center",
     "type": [
       {
-        "paragraph": ["Mobile Application", "Web Application"]
+        "paragraph": ["Web Application"]
+      }
+    ],
+    "about": [
+      {
+        "paragraph": [
+          "Oxbow Center is a 501(c)(3) nonprofit dedicated to serving the critical needs of Wyoming’s residents. They have offices in Washakie, Park, and Big Horn Counties – though serve clients from across the state.",
+          "",
+          "Oxbow Center was founded in 2024 as a result of the merging Cloud Peak Counseling Center, Big Horn Basin Counseling Services, and Yellowstone Behavioral Health Center."
+        ]
+      }
+    ],
+    "role": [
+      {
+        "paragraph": [
+          "I worked as a freelance software engineer for the consulting company, Dory Welch Consulting. I helped design and build the web application using Squarespace."
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "paragraph": ["Squarespace", "Stripe", "HTML", "CSS", "Javascript"]
+      }
+    ],
+    "links": [
+      {
+        "text": "Oxbow Center Website",
+        "link": "https://www.oxbowcenterwy.org/"
+      }
+    ],
+    "link": "#oxbow"
+  },
+  "onehope": {
+    "title": "ONEHOPE Wine",
+    "type": [
+      {
+        "paragraph": ["Web Application"]
+      }
+    ],
+    "about": [
+      {
+        "paragraph": [
+          "ONEHOPE is a Napa Valley winery that donates 10% of its purchases to a cause of the customer's choice. The winery was founded in 2007 and is structured as a social enterprise that raises awareness and funds for charitable organizations and social causes through the OneHope Foundation.",
+          "",
+          " The foundation has donated over $10 million to various charities around the world, including funding over 2.7 million meals to children fighting hunger, planting over 105,000 trees in reforestation projects, providing clean drinking water to over 100,000 people, and building 4 schools in the developing world."
+        ]
+      }
+    ],
+    "role": [
+      {
+        "paragraph": [
+          "I worked as a full-stack software engineer at ONEHOPE Wine where I architected and developed a back-end defensive outage system for a 3PL service in the checkout process using Node.js, spearheaded a tech-enabled 3PL warehouse provider integration, revamped order and shipment procedures, redesigned the cart, checkout, and upsell components using ReactJS, GraphQL, and Node.js."
+        ]
+      }
+    ],
+    "technologies": [
+      {
+        "paragraph": [
+          "React.js",
+          "Next.js",
+          "Node.js",
+          "Typescript",
+          "Javascript",
+          "GraphQL",
+          "PostgreSQL",
+          "AWS"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "text": "ONEHOPE Wine Website",
+        "link": "https://www.onehopewine.com/"
+      },
+      {
+        "text": "ONEHOPE Wine iOS Application",
+        "link": "https://apps.apple.com/us/app/onehope-ce-back-office/id1589287759"
+      }
+    ],
+    "link": "#onehope"
+  },
+  "grabbd": {
+    "title": "Grabbd",
+    "type": [
+      {
+        "paragraph": ["Web Application", "Mobile Application"]
       }
     ],
     "about": [
       {
         "paragraph": [
           "Grabbd is a social media application that allows users to explore new venues, recommend favorite locations to friends, and create itineraries for upcoming trips.",
+          "",
           "Users can participate in a fun community where they can read and post reviews, upload images of the places they have been to, and, most importantly, \"grabb\" places they have loved, liked, or want to try."
         ]
       }
@@ -31,10 +114,7 @@
     "role": [
       {
         "paragraph": [
-          "At Grabbd, I have worked as a full-stack developer creating RESTful APIs to facilitate the communication between our application, server, and database.",
-          "I have also designed and developed a scalable notification and email architecture service through queues and microservices to support a growing user base of 500,000 users.",
-          "Additionally, I implemented a B2B Content Management System for the businesses in our application. This tool is a place where companies can manage their content and post offers for users browsing the application.",
-          "Through my developer and communication skills, I attained a leadership position. And I am now leading a team of two developers and two quality assurance testers."
+          "I worked as a full-stack software engineer at Grabbd, where I built RESTful APIs to facilitate communication between the application, server, and database. I designed and developed a scalable notification and email architecture service using queues and microservices to support a 500,000-user base. Additionally, I implemented a B2B Content Management System that allows businesses to manage their content and post offers for users browsing the application."
         ]
       }
     ],
@@ -56,7 +136,10 @@
       }
     ],
     "links": [
-      { "text": "Grabbd Website", "link": "https://grabbd.com/" },
+      {
+        "text": "Grabbd Website",
+        "link": "https://grabbd.com/"
+      },
       {
         "text": "Grabbd iOS Application",
         "link": "https://apps.apple.com/us/app/grabbd-grab-share-places-you/id1060585858"
@@ -64,6 +147,10 @@
       {
         "text": "Grabbd Android Application",
         "link": "https://play.google.com/store/apps/details?id=com.grabbd.app"
+      },
+      {
+        "text": "Grabbd Instagram",
+        "link": "https://www.instagram.com/grabbdapp"
       }
     ],
     "link": "#grabbd"
@@ -96,8 +183,7 @@
     "role": [
       {
         "paragraph": [
-          "At Tamm, I worked with a team to implement 25 individual online services for three different government entities: the Department of Health, the Department of Community Development, and the Social Care and Minors Affairs Foundation. All services were estimated to cut process times by 39%.",
-          "Additionally, I led a team of three senior developers, a quality automation engineer, and a business analyst to develop an online dashboard for the Department of Health that integrated with 90+ more services."
+          "At Tamm, I worked with a team to implement 25 individual online services for three government entities: the Department of Health, the Department of Community Development, and the Social Care and Minors Affairs Foundation. Additionally, I developed an online dashboard for the Department of Health that integrated with over 90 services."
         ]
       }
     ],
@@ -112,12 +198,15 @@
       }
     ],
     "links": [
-      { "text": "Tamm Website", "link": "https://www.tamm.abudhabi/en" }
+      {
+        "text": "Tamm Website",
+        "link": "https://www.tamm.abudhabi/en"
+      }
     ],
     "link": "#tamm"
   },
   "gitex": {
-    "title": "GITEX Lego Smart City**",
+    "title": "GITEX Lego Smart City",
     "type": [
       {
         "paragraph": ["Smart City", "Internet of Things"]
@@ -189,11 +278,16 @@
         ]
       }
     ],
-    "links": [{ "text": "GITEX Website", "link": "https://gitex.com//" }],
+    "links": [
+      {
+        "text": "GITEX Website",
+        "link": "https://gitex.com//"
+      }
+    ],
     "link": "#gitex"
   },
   "emerge": {
-    "title": "EMERGE**",
+    "title": "EMERGE",
     "type": [
       {
         "paragraph": [
@@ -225,7 +319,7 @@
     "link": "#emerge"
   },
   "maze": {
-    "title": "The Maze*",
+    "title": "The Maze",
     "type": [
       {
         "paragraph": [
@@ -315,7 +409,7 @@
     "link": "#maze"
   },
   "karkhana": {
-    "title": "Karkhana*",
+    "title": "Karkhana",
     "type": [
       {
         "paragraph": ["Educational Website"]
@@ -362,7 +456,10 @@
       }
     ],
     "links": [
-      { "text": "Karkhana Website", "link": "https://www.karkhana.asia/" },
+      {
+        "text": "Karkhana Website",
+        "link": "https://www.karkhana.asia/"
+      },
       {
         "text": "Presentation",
         "link": "https://www.arantzardzm.com/documents/karkhana.pdf"
@@ -530,7 +627,7 @@
     "link": "#workshop"
   },
   "robots": {
-    "title": "Revolver (Agnes and George)*",
+    "title": "Revolver (Agnes and George)",
     "type": [
       {
         "paragraph": ["Robot Performance", "Generative Art", "Textual Art"]
