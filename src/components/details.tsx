@@ -8,6 +8,8 @@ import Links from './links';
 import Iframes from './iframes';
 
 import {
+  oxbowImgs,
+  onehopeImgs,
   grabbdImgs,
   tammImgs,
   gitexImgs,
@@ -31,7 +33,15 @@ const Details = (props: any) => {
   let imgWidth: string;
   let imgHeight: string;
 
-  if (obj.link === '#grabbd') {
+  if (obj.link === '#oxbow') {
+    imgs = oxbowImgs;
+    imgWidth = '50%';
+    imgHeight = '';
+  } else if (obj.link === '#onehope') {
+    imgs = onehopeImgs;
+    imgWidth = '50%';
+    imgHeight = '50%';
+  } else if (obj.link === '#grabbd') {
     imgs = grabbdImgs;
     imgWidth = '25%';
     imgHeight = '25%';
@@ -93,113 +103,113 @@ const Details = (props: any) => {
 
       {obj.type
         ?
-          <>
-            <Paragraph text={['Type']} color={'black'} />
-            <Spacer />
-            <Paragraph text={obj.type} color={'black'} p={true} />
-            <Empty size={'s'} />
-          </>
+        <>
+          <Paragraph text={['Type']} color={'black'} />
+          <Spacer />
+          <Paragraph text={obj.type} color={'black'} p={true} />
+          <Empty size={'s'} />
+        </>
         : ''
       }
 
       {obj.about
         ?
-          <>
-            <Paragraph text={['About']} color={'black'} />
-            <Spacer />
-            <Paragraph text={obj.about} color={'black'} p={true} />
-            <Empty size={'s'} />
-          </>
+        <>
+          <Paragraph text={['About']} color={'black'} />
+          <Spacer />
+          <Paragraph text={obj.about} color={'black'} p={true} />
+          <Empty size={'s'} />
+        </>
         : ''
       }
 
       {obj.role && obj.link !== '#emerge'
         ?
-          <>
-            <Paragraph text={['Development']} color={'black'} />
-            <Spacer />
-            <Paragraph text={obj.role} color={'black'} p={true} />
-            <Empty size={'s'} />
-          </>
+        <>
+          <Paragraph text={['Role']} color={'black'} />
+          <Spacer />
+          <Paragraph text={obj.role} color={'black'} p={true} />
+          <Empty size={'s'} />
+        </>
         : ''
       }
 
       {obj.role && obj.link === '#emerge'
         ?
-          <>
-            <Paragraph text={['Development']} color={'black'} />
-            <Spacer />
-            <Paragraph text={obj.role} color={'black'} />
-            <Links links={obj.links} />
-            <Empty size={'s'} />
-          </>
+        <>
+          <Paragraph text={['Role']} color={'black'} />
+          <Spacer />
+          <Paragraph text={obj.role} color={'black'} />
+          <Links links={obj.links} />
+          <Empty size={'s'} />
+        </>
         : ''
       }
 
       {imgs
         ?
-          <>
-            <Paragraph text={['Images']} color={'black'} />
-            <Spacer />
-            <Images images={imgs} width={imgWidth} height={imgHeight} />
-            {obj.link === '#karkhana'
-              ? <Images images={karkhana2Imgs} width={'30%'} height={'30%'} />
-              : ''
-            }
-            {obj.link === '#emerge'
-              ? <Images images={emerge2Imgs} width={'25%'} height={'25%'} />
-              : ''
-            }
-            <Empty size={'s'} />
-          </>
+        <>
+          <Paragraph text={['Images']} color={'black'} />
+          <Spacer />
+          <Images images={imgs} width={imgWidth} height={imgHeight} />
+          {obj.link === '#karkhana'
+            ? <Images images={karkhana2Imgs} width={'30%'} height={'30%'} />
+            : ''
+          }
+          {obj.link === '#emerge'
+            ? <Images images={emerge2Imgs} width={'25%'} height={'25%'} />
+            : ''
+          }
+          <Empty size={'s'} />
+        </>
         : ''
       }
 
       {obj.link === '#robots'
         ?
-          <>
-            <Paragraph text={['Audio']} color={'black'} />
-            <Spacer />
-            <div style={{textAlign:'center'}}>
-              <audio controls>
-                <source src={robots} type="audio/mp3"></source>
-              </audio>
-            </div>
-            <Empty size={'s'} />
-          </>
+        <>
+          <Paragraph text={['Audio']} color={'black'} />
+          <Spacer />
+          <div style={{ textAlign: 'center' }}>
+            <audio controls>
+              <source src={robots} type="audio/mp3"></source>
+            </audio>
+          </div>
+          <Empty size={'s'} />
+        </>
         : ''
       }
 
       {obj.iframes
         ?
-          <>
-            <Paragraph text={['Videos']} color={'black'} />
-            <Spacer />
-            <Iframes iframes={obj.iframes} />
-            <Empty size={'l'} />
-          </>
+        <>
+          <Paragraph text={['Videos']} color={'black'} />
+          <Spacer />
+          <Iframes iframes={obj.iframes} />
+          <Empty size={'l'} />
+        </>
         : ''
       }
 
       {obj.technologies
         ?
-          <>
-            <Paragraph text={['Technologies']} color={'black'} />
-            <Spacer />
-            <Paragraph text={obj.technologies} color={'black'} p={true} />
-            <Empty size={'s'} />
-          </>
+        <>
+          <Paragraph text={['Technologies']} color={'black'} />
+          <Spacer />
+          <Paragraph text={obj.technologies} color={'black'} p={true} />
+          <Empty size={'s'} />
+        </>
         : ''
       }
 
       {obj.links && obj.link !== '#emerge'
         ?
-          <>
-            <Paragraph text={['Links']} color={'black'} />
-            <Spacer />
-            <Links links={obj.links} />
-            <Empty size={'l'} />
-          </>
+        <>
+          <Paragraph text={['Links']} color={'black'} />
+          <Spacer />
+          <Links links={obj.links} />
+          <Empty size={'l'} />
+        </>
         : ''
       }
 

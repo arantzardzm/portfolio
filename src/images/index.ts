@@ -2,24 +2,24 @@
 import logoImg from "./logo.png";
 
 // oxbow
-import oxbow0Img from './oxbow/oxbow_0.png';
-import oxbow1Img from './oxbow/oxbow_1.png';
-import oxbow2Img from './oxbow/oxbow_2.png';
-import oxbow3Img from './oxbow/oxbow_3.png';
-import oxbow4Img from './oxbow/oxbow_4.png';
-import oxbow5Img from './oxbow/oxbow_5.png';
-import oxbow6Img from './oxbow/oxbow_6.png';
-import oxbow7Img from './oxbow/oxbow_7.png';
+import oxbow0Img from "./oxbow/oxbow_0.png";
+import oxbow1Img from "./oxbow/oxbow_1.png";
+import oxbow2Img from "./oxbow/oxbow_2.png";
+import oxbow3Img from "./oxbow/oxbow_3.png";
+import oxbow4Img from "./oxbow/oxbow_4.png";
+import oxbow5Img from "./oxbow/oxbow_5.png";
+import oxbow6Img from "./oxbow/oxbow_6.png";
+import oxbow7Img from "./oxbow/oxbow_7.png";
 
 // onehope
-import onehope0Img from './onehope/onehope_0.png';
-import onehope1Img from './onehope/onehope_1.png';
-import onehope2Img from './onehope/onehope_2.png';
-import onehope3Img from './onehope/onehope_3.png';
-import onehope4Img from './onehope/onehope_4.png';
-import onehope5Img from './onehope/onehope_5.png';
-import onehope6Img from './onehope/onehope_6.png';
-import onehope7Img from './onehope/onehope_7.png';
+import onehope0Img from "./onehope/onehope_0.png";
+import onehope1Img from "./onehope/onehope_1.png";
+import onehope2Img from "./onehope/onehope_2.png";
+import onehope3Img from "./onehope/onehope_3.png";
+import onehope4Img from "./onehope/onehope_4.png";
+import onehope5Img from "./onehope/onehope_5.png";
+import onehope6Img from "./onehope/onehope_6.png";
+import onehope7Img from "./onehope/onehope_7.png";
 
 // grabbd
 import grabbd0Img from "./grabbd/grabbd_0.jpeg";
@@ -144,7 +144,7 @@ const oxbowImgs = [
   oxbow5Img,
   oxbow6Img,
   oxbow7Img,
-]
+];
 
 const onehopeImgs = [
   onehope0Img,
@@ -155,7 +155,7 @@ const onehopeImgs = [
   onehope5Img,
   onehope6Img,
   onehope7Img,
-]
+];
 
 const grabbdImgs = [
   grabbd0Img,

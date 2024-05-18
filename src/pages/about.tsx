@@ -5,16 +5,17 @@ import Col from 'react-bootstrap/Col';
 import Navigation from '../components/navigation';
 import Title from '../components/title';
 import Paragraph from '../components/paragraph';
+import Empty from '../components/empty';
 
 import { about } from '../content';
 
-interface Props {}
+interface Props { }
 
 const About = (props: Props) => {
   return (
     <>
       <div className="main-wrapper">
-        <Navigation color={'white'}/>
+        <Navigation color={'white'} />
         <Row className="about-row-wrapper">
           <Col className="about-title-wrapper">
             <div>
@@ -26,7 +27,10 @@ const About = (props: Props) => {
             </div>
           </Col>
         </Row>
-        <Row className="about-row-wrapper">
+
+        <Empty />
+
+        <Row className="about-description-row-wrapper">
           <Col className="about-description-wrapper">
             <Paragraph
               text={about.aboutDescription}
@@ -35,6 +39,62 @@ const About = (props: Props) => {
             />
           </Col>
         </Row>
+
+        <Empty size="s" />
+
+        <Row className="about-description-row-wrapper">
+          <Title
+            text={about.professionalTitle}
+            textSize={'m'}
+            textStyle={'normal'}
+          />
+          <Empty size="s" />
+          <Col className="about-description-wrapper">
+            <Paragraph
+              text={about.professionalDescription}
+              color={'black'}
+              p={true}
+            />
+          </Col>
+        </Row>
+
+        <Empty size="s" />
+
+        <Row className="about-description-row-wrapper">
+          <Title
+            text={about.freelanceTitle}
+            textSize={'m'}
+            textStyle={'normal'}
+          />
+          <Empty size="s" />
+          <Col className="about-description-wrapper">
+            <Paragraph
+              text={about.freelanceDescription}
+              color={'black'}
+              p={true}
+            />
+          </Col>
+        </Row>
+
+        <Empty size="s" />
+
+        <Row className="about-description-row-wrapper">
+          <Title
+            text={about.moreTitle}
+            textSize={'m'}
+            textStyle={'normal'}
+          />
+          <Empty size="s" />
+          <Col className="about-description-wrapper">
+            <Paragraph
+              text={about.moreDescription}
+              color={'black'}
+              p={true}
+            />
+          </Col>
+          <Empty size="l" />
+        </Row>
+
       </div>
     </>
   );

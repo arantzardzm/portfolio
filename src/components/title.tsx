@@ -11,7 +11,7 @@ const Title = (props: TitleProps) => {
   if (link) {
     title = (
       <h1 className={`title title-${textSize} title-${textStyle}`}>
-        <a className="title-link" href={link} onClick={click ? () => click(link) : () => {}}>{text}</a>
+        <a className="title-link" href={link} onClick={click ? () => click(link) : () => { }}>{text}</a>
       </h1>
     );
   }

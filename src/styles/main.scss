@@ -51,10 +51,12 @@ html {
 .title-link {
   color: white;
   text-decoration: none;
+  transition-duration: .5s;
 }
 
 .title-link:hover {
   color: grey;
+  transition-duration: .5s;
 }
 
 // paragraph
@@ -79,15 +81,15 @@ html {
 // empty
 
 .empty-l {
-  margin-top: 50px;
+  margin-top: 50px !important;
 }
 
 .empty-m {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 
 .empty-s {
-  margin-top: 30px;
+  margin-top: 30px !important;
 }
 
 
@@ -110,7 +112,8 @@ html {
   --video--width: 1296;
   --video--height: 540;
   position: relative;
-  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%); /* 41.66666667% */
+  padding-bottom: calc(var(--video--height) / var(--video--width) * 100%);
+  /* 41.66666667% */
   overflow: hidden;
   max-width: 100%;
 }
@@ -134,6 +137,6 @@ html {
 }
 
 .navigation-link:hover {
-  color: #CBB3BF;
+  color: grey;
   transition-duration: .5s;
 }

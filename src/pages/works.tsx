@@ -13,8 +13,8 @@ import Details from '../components/details';
 
 import { works } from '../content';
 
-interface Props {}
-type Projects = 'main' | 'grabbd' | 'tamm' | 'gitex' | 'emerge' | 'maze';
+interface Props { }
+type Projects = 'main' | 'oxbow' | 'onehope' | 'grabbd' | 'tamm' | 'gitex' | 'emerge' | 'maze';
 
 const displayWork = (key: string) => {
   if (key === '#main') {
@@ -43,7 +43,7 @@ const Works = (props: Props) => {
   return (
     <>
       <div className="main-wrapper">
-        <Navigation color={'white'}/>
+        <Navigation color={'white'} />
         <Row className="works-row-wrapper">
           <Col lg={3} className="works-title-wrapper" id="top">
             <Empty />
@@ -56,6 +56,28 @@ const Works = (props: Props) => {
             />
             <Empty />
 
+            <Paragraph text={['2024']} color={'white'} />
+            <Spacer />
+            <Title
+              text={works.oxbow.title}
+              textSize={'s'}
+              textStyle={'italic'}
+              link={works.oxbow.link}
+              click={selectWork}
+            />
+            <Empty />
+
+            <Paragraph text={['2022']} color={'white'} />
+            <Spacer />
+            <Title
+              text={works.onehope.title}
+              textSize={'s'}
+              textStyle={'italic'}
+              link={works.onehope.link}
+              click={selectWork}
+            />
+            <Empty />
+
             <Paragraph text={['2021']} color={'white'} />
             <Spacer />
             <Title
@@ -64,7 +86,7 @@ const Works = (props: Props) => {
               textStyle={'italic'}
               link={works.grabbd.link}
               click={selectWork}
-              />
+            />
             <Empty />
 
             <Paragraph text={['2020']} color={'white'} />
@@ -75,10 +97,10 @@ const Works = (props: Props) => {
               textStyle={'italic'}
               link={works.tamm.link}
               click={selectWork}
-              />
+            />
             <Empty />
 
-            <Paragraph text={['2019']} color={'white'} />
+            {/* <Paragraph text={['2019']} color={'white'} />
             <Spacer />
             <Title
               text={works.gitex.title}
@@ -86,17 +108,17 @@ const Works = (props: Props) => {
               textStyle={'italic'}
               link={works.gitex.link}
               click={selectWork}
-              />
+            />
             <Title
               text={works.emerge.title}
               textSize={'s'}
               textStyle={'italic'}
               link={works.emerge.link}
               click={selectWork}
-              />
-            <Empty />
+            />
+            <Empty /> */}
 
-            <Paragraph text={['2018']} color={'white'} />
+            {/* <Paragraph text={['2018']} color={'white'} />
             <Spacer />
             <Title
               text={works.maze.title}
@@ -133,9 +155,9 @@ const Works = (props: Props) => {
               link={works.workshop.link}
               click={selectWork}
               />
-            <Empty />
+            <Empty /> */}
 
-            <Paragraph text={['2017']} color={'white'} />
+            {/* <Paragraph text={['2017']} color={'white'} />
             <Spacer />
             <Title
               text={works.robots.title}
@@ -158,7 +180,7 @@ const Works = (props: Props) => {
               link={works.colors.link}
               click={selectWork}
               />
-            <Empty />
+            <Empty /> */}
 
           </Col>
           <Col lg={9} className="works-description-wrapper" id="work">

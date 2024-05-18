@@ -1,18 +1,12 @@
 .notFound-row-wrapper {
   height: 100%;
   max-width: 100%;
+  margin: 0px !important;
 }
 
 .notFound-title-wrapper {
   color: white;
   background-color: #7E8D85;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.notFound-description-wrapper {
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;

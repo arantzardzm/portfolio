@@ -5,10 +5,11 @@ import Col from 'react-bootstrap/Col';
 import Navigation from '../components/navigation';
 import Title from '../components/title';
 import Paragraph from '../components/paragraph';
+import Empty from '../components/empty';
 
 import { contact } from '../content';
 
-interface Props {}
+interface Props { }
 
 const getLink = (type: string) => {
   const link = contact.contactLinks.find((c) => c.type === type);
@@ -23,7 +24,7 @@ const Contact = (props: Props) => {
   return (
     <>
       <div className="main-wrapper">
-        <Navigation color={'purple'}/>
+        <Navigation color={'white'} />
         <Row className="contact-row-wrapper">
           <Col className="contact-title-wrapper">
             <div>
@@ -35,11 +36,14 @@ const Contact = (props: Props) => {
             </div>
           </Col>
         </Row>
-        <Row className="contact-row-wrapper">
+
+        <Empty />
+
+        <Row className="contact-description-row-wrapper">
           <Col className="contact-description-wrapper">
             <Paragraph
               text={contact.contactDescription}
-              color={'white'}
+              color={'black'}
               p={true}
             />
             <div className="contact-link-wrapper">
@@ -50,6 +54,7 @@ const Contact = (props: Props) => {
               <a href={getLink('email')} target="_blank" rel="noopener noreferrer"><i className='fa fa-envelope-o fa-2x contact-link'></i></a>
             </div>
           </Col>
+          <Empty size="l" />
         </Row>
       </div>
     </>
